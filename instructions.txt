@@ -1,0 +1,19 @@
+For all songs in `ListeDeChants.txt` and `scoutslist_sorted.txt`:
+  if the song does not yet have lyrics and chords in the corresponding .tex file under `songs/`:
+    fetch lyrics and guitar chords from the internet
+    format them using the LaTeX `songs` package:
+      - \beginsong{Title}[by={Artist}]
+      - \beginverse / \endverse for verses
+      - \beginchorus / \endchorus for choruses
+      - \textnote{Capo X} if applicable
+      - inline chord notation: \[Am]word
+    add the song to the correct section file:
+      - songs/sgdf.tex        → LES SGDF (scout-specific songs)
+      - songs/benedicite.tex   → BÉNÉDICITÉ (meal prayers)
+      - songs/coindufeu.tex    → COIN DU FEU (French campfire songs)
+      - songs/coindufeu_anglais.tex → COIN DU FEU ANGLAIS (English campfire songs)
+      - songs/tempsspi.tex     → TEMPS SPI (spiritual songs)
+    include author/composer in [by={...}] when available
+    preserve the order from ListeDeChants.txt within each section
+  if lyrics/chords cannot be found online:
+    append the song title to `not_found.txt`

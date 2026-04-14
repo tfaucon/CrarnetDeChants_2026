@@ -1,0 +1,76 @@
+\clearpage
+\thispagestyle{empty}
+\begingroup
+\sffamily
+\setlength{\parindent}{0pt}
+
+% Ornements en coins
+\begin{tikzpicture}[remember picture, overlay]
+  \draw[tassingreen, line width=1.2pt]
+    ([xshift=12mm,yshift=-12mm]current page.north west) -- ++(18mm,0);
+  \draw[tassinred, line width=1.2pt]
+    ([xshift=12mm,yshift=-14mm]current page.north west) -- ++(12mm,0);
+  \draw[tassingreen, line width=1.2pt]
+    ([xshift=-12mm,yshift=-12mm]current page.north east) -- ++(-18mm,0);
+  \draw[tassinred, line width=1.2pt]
+    ([xshift=-12mm,yshift=-14mm]current page.north east) -- ++(-12mm,0);
+  \draw[tassinred, line width=1.2pt]
+    ([xshift=12mm,yshift=12mm]current page.south west) -- ++(12mm,0);
+  \draw[tassingreen, line width=1.2pt]
+    ([xshift=12mm,yshift=14mm]current page.south west) -- ++(18mm,0);
+  \draw[tassinred, line width=1.2pt]
+    ([xshift=-12mm,yshift=12mm]current page.south east) -- ++(-12mm,0);
+  \draw[tassingreen, line width=1.2pt]
+    ([xshift=-12mm,yshift=14mm]current page.south east) -- ++(-18mm,0);
+\end{tikzpicture}
+
+\vspace*{-5mm}
+
+\begin{center}
+\begin{minipage}{0.82\textwidth}
+\setlength{\parskip}{0.35em}
+
+{\itshape\color{tassindarkbrown} Chère\,/\,cher \dotfill}
+
+\vspace{0.15em}
+{\color{tassingreen}\rule{\textwidth}{0.4pt}}
+\vspace{0.25em}
+
+\footnotesize
+Ce carnet de chants est \textbf{le tien}.
+
+Prends-en soin et il te suivra dans tes activités scoutes (et les autres) durant de longues années.
+
+Ce carnet est également disponible en version numérique (\textit{QR code ci-dessous}). Cette dernière est appelée à évoluer dans le temps avec l'ajout de nouvelles chansons, en attendant une éventuelle réimpression dans quelques années, qui sait~?
+
+Nous te souhaitons de beaux moments de joie et d'émotions, de veillées festives et de randonnées inoubliables grâce au présent ouvrage.
+\end{minipage}
+\end{center}
+
+\vspace{0.5em}
+
+\begin{center}
+  {\large\bfseries\color{tassinred}\itshape Bons chants et bonne route~!}
+\end{center}
+
+\vspace{0.4em}
+
+\begin{center}
+\begin{tikzpicture}
+  \node[draw=tassingreen, line width=0.8pt, rounded corners=2pt,
+        inner sep=3pt] {\includegraphics[width=3.5cm]{images/qr-code}};
+\end{tikzpicture}
+
+\vspace{0.1em}
+
+{\scriptsize\itshape\color{tassindarkbrown} Scanne-moi pour la version numérique}
+\end{center}
+
+\vspace{0.3em}
+
+\begin{flushright}
+  {\footnotesize\itshape\color{tassindarkbrown}— Les violets 2023-2026 —}
+\end{flushright}
+
+\endgroup
+\clearpage

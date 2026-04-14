@@ -1,0 +1,74 @@
+% Pas de numéros de chants, mais numéros de couplets
+\nosongnumbers
+
+% Autoriser les chants à démarrer n'importe où (pas forcément en haut de colonne).
+% Réduit drastiquement les blancs de queue.
+\songpos{0}
+
+% Réduire l'espace entre numéro de couplet et texte
+\renewcommand{\printversenum}[1]{\lyricfont#1.\,}
+\settowidth{\versenumwidth}{\printversenum{9\kern.4em}}
+
+% Espacement entre colonnes
+\setlength{\columnsep}{12pt}
+
+% Espacement entre chants et couplets (resserré)
+\versesep=3pt plus 2pt minus 1pt
+\afterpreludeskip=1pt plus 1pt minus 1pt
+\beforepostludeskip=6pt plus 4pt minus 2pt
+
+% Marge d'étirement pour absorber les lignes borderline en 3 colonnes
+\setlength{\emergencystretch}{3em}
+
+% Espacement vertical (accords au-dessus des paroles)
+\baselineadj=-2pt
+
+% Espacement vertical entre deux chants consécutifs dans une même colonne.
+% Patch de \SB@putboxes (songs.sty:414) — injecte un \vskip uniquement
+% quand il y a déjà un chant dans la colonne (pas au début de colonne).
+\makeatletter
+\newlength\SB@intersongskip
+\setlength\SB@intersongskip{14pt plus 2pt minus 2pt}
+\renewcommand\SB@putboxes[1]{%
+  \SB@dimen\ifnum\SB@numcols>\z@\ht\SB@colbox\else\p@\fi%
+  #1\SB@colbox%
+  \ifdim\SB@dimen>\z@%
+    \SB@breakpoint\spenalty%
+    \ifdim\sbarheight>\z@%
+      \vskip-\sbarheight\relax%
+    \fi%
+    \vskip\SB@intersongskip\relax%
+  \fi%
+  #1\SB@songbox%
+}
+\makeatother
+
+% Barre de refrain en vert Tassin
+% Use the built-in chorus bar (no extra rule from \chorusmark)
+\setlength{\cbarwidth}{1.2pt}
+\setlength{\sbarheight}{0pt}
+\renewcommand{\chorusmark}{}
+
+% Patch the built-in chorus bar to be green
+\makeatletter
+\renewcommand\SB@chorusbar[1]{%
+  \ifdim\cbarwidth>\z@%
+    \SB@dimen\ht#1%
+    \SB@dimenii\dp#1%
+    \advance\SB@dimen%
+      \ifSB@chorustop\ifchorded\else2\fi\fi\SB@dimenii%
+    \SB@skip\SB@dimen\relax%
+    \SB@computess\SB@skip1\@plus#1%
+    \SB@computess\SB@skip{-1}\@minus#1%
+    \nointerlineskip\null\nobreak%
+    {\color{tassingreen}\leaders\vrule\@width\cbarwidth\vskip\SB@skip}%
+    \ifSB@chorustop\ifchorded\else%
+      \advance\SB@skip-\SB@dimenii%
+    \fi\fi%
+    \nobreak\vskip-\SB@skip%
+  \fi%
+}
+\makeatother
+
+% Chorus font: bold, no color change (prevent green bleed into following verses)
+\renewcommand{\chorusfont}{\sffamily\footnotesize\bfseries}

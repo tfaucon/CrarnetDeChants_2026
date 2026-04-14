@@ -1,0 +1,175 @@
+\documentclass[a5paper,twoside,10pt]{article}
+
+% --- Préambule ---
+\input{preamble/packages}
+\input{preamble/layout}
+\input{preamble/fonts}
+\input{preamble/songconfig}
+\input{preamble/commands}
+\input{preamble/chordmacros}
+
+% Index alphabétique des titres (référence = numéro de page, pas numéro de chant)
+\newindex{titleidx}{main_title}
+\makeatletter
+\renewcommand\SB@idxref@titleidx{\thepage}
+\makeatother
+
+\begin{document}
+
+% --- Page de titre ---
+\input{frontmatter/titlepage}
+\setcounter{page}{1}
+
+% --- Introduction + QR code ---
+\input{frontmatter/introduction}
+
+% --- LES NŒUDS ---
+%\input{extras/noeuds}
+
+% --- LES SGDF ---
+\songsectionpage{LES SGDF}{images/papier-vert.png}{%
+    \node[anchor=center, rotate=8.1, inner sep=0pt, opacity=0.7] at ([xshift=162.2mm, yshift=15.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/inukshuk-02}};
+    \node[anchor=center, rotate=18.0, inner sep=0pt, opacity=0.7] at ([xshift=103.8mm, yshift=136.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/compa-03}};
+    \node[anchor=center, rotate=-12.0, inner sep=0pt, opacity=0.7] at ([xshift=69.9mm, yshift=127.5mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/totem-02}};
+    \node[anchor=center, rotate=-6.8, inner sep=0pt, opacity=0.7] at ([xshift=11.5mm, yshift=108.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/calendrier-03}};
+    \node[anchor=center, rotate=-1.4, inner sep=0pt, opacity=0.7] at ([xshift=165.6mm, yshift=138.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/globe-01}};
+    \node[anchor=center, rotate=-1.4, inner sep=0pt, opacity=0.7] at ([xshift=190.6mm, yshift=75.8mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/etape-03}};
+    \node[anchor=center, rotate=13.7, inner sep=0pt, opacity=0.7] at ([xshift=41.9mm, yshift=69.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/loupe-04}};
+    \node[anchor=center, rotate=14.0, inner sep=0pt, opacity=0.7] at ([xshift=13.8mm, yshift=137.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/calendrier-04}};
+    \node[anchor=center, rotate=-1.9, inner sep=0pt, opacity=0.7] at ([xshift=129.5mm, yshift=18.1mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/loupe-07}};
+    \node[anchor=center, rotate=11.7, inner sep=0pt, opacity=0.7] at ([xshift=74.1mm, yshift=104.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/tribue-01}};
+    \node[anchor=center, rotate=-11.7, inner sep=0pt, opacity=0.7] at ([xshift=101.7mm, yshift=47.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/compa-04}};
+    \node[anchor=center, rotate=-1.2, inner sep=0pt, opacity=0.7] at ([xshift=136.5mm, yshift=99.4mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/source-04}};
+    \node[anchor=center, rotate=19.8, inner sep=0pt, opacity=0.7] at ([xshift=109.3mm, yshift=19.5mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/solidarite-03}};
+    \node[anchor=center, rotate=-4.9, inner sep=0pt, opacity=0.7] at ([xshift=193.9mm, yshift=9.8mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/message-04}};
+    \node[anchor=center, rotate=-17.7, inner sep=0pt, opacity=0.7] at ([xshift=169.3mm, yshift=109.4mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/carte-01}};
+}
+\begin{songs}{titleidx}
+\input{songs/sgdf}
+\end{songs}
+
+% --- BÉNÉDICITÉ ---
+\songsectionpage{BÉNÉDICITÉS}{images/papier-orange.png}{%
+    \node[anchor=center, rotate=2.5, inner sep=0pt, opacity=0.7] at ([xshift=49.7mm, yshift=108.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/totem-04}};
+    \node[anchor=center, rotate=-3.8, inner sep=0pt, opacity=0.7] at ([xshift=70.7mm, yshift=136.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/visage-05}};
+    \node[anchor=center, rotate=-8.0, inner sep=0pt, opacity=0.7] at ([xshift=195.5mm, yshift=103.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/aventurier-06}};
+    \node[anchor=center, rotate=-1.9, inner sep=0pt, opacity=0.7] at ([xshift=40.3mm, yshift=71.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/observation-07}};
+    \node[anchor=center, rotate=18.7, inner sep=0pt, opacity=0.7] at ([xshift=49.3mm, yshift=15.8mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/destination-05}};
+    \node[anchor=center, rotate=1.2, inner sep=0pt, opacity=0.7] at ([xshift=193.2mm, yshift=134.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/boussole-04}};
+    \node[anchor=center, rotate=-6.2, inner sep=0pt, opacity=0.7] at ([xshift=133.7mm, yshift=132.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/solidarite-05}};
+    \node[anchor=center, rotate=-2.2, inner sep=0pt, opacity=0.7] at ([xshift=13.2mm, yshift=77.5mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/source-05}};
+    \node[anchor=center, rotate=-5.7, inner sep=0pt, opacity=0.7] at ([xshift=161.9mm, yshift=133.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/totem-02}};
+    \node[anchor=center, rotate=-9.2, inner sep=0pt, opacity=0.7] at ([xshift=159.5mm, yshift=101.8mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/baton-07}};
+    \node[anchor=center, rotate=-5.0, inner sep=0pt, opacity=0.7] at ([xshift=13.0mm, yshift=127.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/observation-06}};
+    \node[anchor=center, rotate=-12.8, inner sep=0pt, opacity=0.7] at ([xshift=103.8mm, yshift=16.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/batir-07}};
+    \node[anchor=center, rotate=-18.9, inner sep=0pt, opacity=0.7] at ([xshift=77.1mm, yshift=105.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/cairn-05}};
+    \node[anchor=center, rotate=18.8, inner sep=0pt, opacity=0.7] at ([xshift=42.5mm, yshift=44.5mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/trek-07}};
+    \node[anchor=center, rotate=18.4, inner sep=0pt, opacity=0.7] at ([xshift=71.0mm, yshift=17.5mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/destination-05}};
+}
+\songcolumns{4}
+\begin{songs}{titleidx}
+\input{songs/benedicite}
+\end{songs}
+\songcolumns{2}
+
+% --- COIN DU FEU ---
+\songsectionpage{AU COIN DU FEU}{images/papier-bleu.png}{%
+    \node[anchor=center, rotate=-3.8, inner sep=0pt, opacity=0.7] at ([xshift=193.0mm, yshift=16.8mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/oasis-03}};
+    \node[anchor=center, rotate=10.2, inner sep=0pt, opacity=0.7] at ([xshift=198.1mm, yshift=73.1mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/globe-03}};
+    \node[anchor=center, rotate=3.4, inner sep=0pt, opacity=0.7] at ([xshift=39.6mm, yshift=49.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/source-01}};
+    \node[anchor=center, rotate=-17.2, inner sep=0pt, opacity=0.7] at ([xshift=164.2mm, yshift=16.2mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/inukshuk-01}};
+    \node[anchor=center, rotate=14.9, inner sep=0pt, opacity=0.7] at ([xshift=107.9mm, yshift=46.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/horizon-03}};
+    \node[anchor=center, rotate=-15.1, inner sep=0pt, opacity=0.7] at ([xshift=9.7mm, yshift=17.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/carte-06}};
+    \node[anchor=center, rotate=-4.3, inner sep=0pt, opacity=0.7] at ([xshift=163.3mm, yshift=40.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/route-07}};
+    \node[anchor=center, rotate=-10.0, inner sep=0pt, opacity=0.7] at ([xshift=40.5mm, yshift=107.4mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/oasis-01}};
+    \node[anchor=center, rotate=1.4, inner sep=0pt, opacity=0.7] at ([xshift=166.8mm, yshift=98.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/baton-06}};
+    \node[anchor=center, rotate=11.0, inner sep=0pt, opacity=0.7] at ([xshift=192.3mm, yshift=133.4mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/tribue-03}};
+    \node[anchor=center, rotate=-10.6, inner sep=0pt, opacity=0.7] at ([xshift=138.5mm, yshift=19.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/totem-03}};
+    \node[anchor=center, rotate=-8.2, inner sep=0pt, opacity=0.7] at ([xshift=132.1mm, yshift=133.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/visage-05}};
+    \node[anchor=center, rotate=6.5, inner sep=0pt, opacity=0.7] at ([xshift=44.8mm, yshift=79.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/etape-01}};
+    \node[anchor=center, rotate=-3.1, inner sep=0pt, opacity=0.7] at ([xshift=18.3mm, yshift=98.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/horizon-06}};
+    \node[anchor=center, rotate=-0.0, inner sep=0pt, opacity=0.7] at ([xshift=99.2mm, yshift=133.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/trek-03}};
+}
+\begin{songs}{titleidx}
+\input{songs/coindufeu}
+\end{songs}
+
+% --- COIN DU FEU ANGLAIS ---
+\songsectionpage{CHANSONS DU MONDE}{images/papier-rouge.png}{%
+    \node[anchor=center, rotate=-1.5, inner sep=0pt, opacity=0.7] at ([xshift=200.4mm, yshift=16.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/desert-06}};
+    \node[anchor=center, rotate=13.6, inner sep=0pt, opacity=0.7] at ([xshift=69.9mm, yshift=47.2mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/loupe-04}};
+    \node[anchor=center, rotate=-7.4, inner sep=0pt, opacity=0.7] at ([xshift=192.5mm, yshift=74.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/desert-02}};
+    \node[anchor=center, rotate=-11.3, inner sep=0pt, opacity=0.7] at ([xshift=194.9mm, yshift=38.5mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/solidarite-04}};
+    \node[anchor=center, rotate=-10.3, inner sep=0pt, opacity=0.7] at ([xshift=12.0mm, yshift=9.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/boussole-04}};
+    \node[anchor=center, rotate=-8.3, inner sep=0pt, opacity=0.7] at ([xshift=71.4mm, yshift=101.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/globe-06}};
+    \node[anchor=center, rotate=6.3, inner sep=0pt, opacity=0.7] at ([xshift=42.4mm, yshift=102.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/loupe-02}};
+    \node[anchor=center, rotate=4.1, inner sep=0pt, opacity=0.7] at ([xshift=168.9mm, yshift=134.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/totem-06}};
+    \node[anchor=center, rotate=18.1, inner sep=0pt, opacity=0.7] at ([xshift=99.2mm, yshift=41.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/etoile-06}};
+    \node[anchor=center, rotate=9.8, inner sep=0pt, opacity=0.7] at ([xshift=103.3mm, yshift=19.5mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/message-04}};
+    \node[anchor=center, rotate=7.7, inner sep=0pt, opacity=0.7] at ([xshift=14.9mm, yshift=131.2mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/horizon-05}};
+    \node[anchor=center, rotate=13.8, inner sep=0pt, opacity=0.7] at ([xshift=195.7mm, yshift=102.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/horizon-04}};
+    \node[anchor=center, rotate=10.7, inner sep=0pt, opacity=0.7] at ([xshift=169.6mm, yshift=109.2mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/agora-05}};
+    \node[anchor=center, rotate=8.8, inner sep=0pt, opacity=0.7] at ([xshift=40.3mm, yshift=134.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/oasis-03}};
+    \node[anchor=center, rotate=-15.5, inner sep=0pt, opacity=0.7] at ([xshift=45.1mm, yshift=75.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/totem-05}};
+}
+\begin{otherlanguage}{english}
+\begin{songs}{titleidx}
+\input{songs/coindufeu_anglais}
+\end{songs}
+\end{otherlanguage}
+
+% --- TEMPS SPI ---
+\songcolumns{2}
+\songsectionpage{TEMPS SPI}{images/papier-vert compa.png}{%
+    \node[anchor=center, rotate=-8.2, inner sep=0pt, opacity=0.7] at ([xshift=191.5mm, yshift=129.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/calendrier-03}};
+    \node[anchor=center, rotate=-14.2, inner sep=0pt, opacity=0.7] at ([xshift=42.3mm, yshift=74.7mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/destination-01}};
+    \node[anchor=center, rotate=1.7, inner sep=0pt, opacity=0.7] at ([xshift=195.8mm, yshift=98.0mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/tribue-01}};
+    \node[anchor=center, rotate=-13.3, inner sep=0pt, opacity=0.7] at ([xshift=17.0mm, yshift=133.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/message-01}};
+    \node[anchor=center, rotate=12.2, inner sep=0pt, opacity=0.7] at ([xshift=196.9mm, yshift=14.3mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/globe-07}};
+    \node[anchor=center, rotate=-5.2, inner sep=0pt, opacity=0.7] at ([xshift=161.9mm, yshift=78.8mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/destination-07}};
+    \node[anchor=center, rotate=-0.6, inner sep=0pt, opacity=0.7] at ([xshift=103.2mm, yshift=20.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/solidarite-07}};
+    \node[anchor=center, rotate=-12.9, inner sep=0pt, opacity=0.7] at ([xshift=104.7mm, yshift=38.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/etoile-07}};
+    \node[anchor=center, rotate=-17.9, inner sep=0pt, opacity=0.7] at ([xshift=40.7mm, yshift=43.2mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/message-04}};
+    \node[anchor=center, rotate=-4.2, inner sep=0pt, opacity=0.7] at ([xshift=77.1mm, yshift=109.4mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/cairn-04}};
+    \node[anchor=center, rotate=8.4, inner sep=0pt, opacity=0.7] at ([xshift=43.7mm, yshift=101.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/message-01}};
+    \node[anchor=center, rotate=12.6, inner sep=0pt, opacity=0.7] at ([xshift=9.6mm, yshift=72.9mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/totem-04}};
+    \node[anchor=center, rotate=17.6, inner sep=0pt, opacity=0.7] at ([xshift=73.8mm, yshift=129.4mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/agora-03}};
+    \node[anchor=center, rotate=6.8, inner sep=0pt, opacity=0.7] at ([xshift=70.1mm, yshift=38.8mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/trek-07}};
+    \node[anchor=center, rotate=-9.8, inner sep=0pt, opacity=0.7] at ([xshift=129.8mm, yshift=132.6mm]current page.south west) {\includegraphics[width=12mm]{images/pictos/desert-04}};
+}
+\begin{songs}{titleidx}
+\input{songs/tempsspi}
+\end{songs}
+
+% --- Index ---
+\input{backmatter/index}
+
+% --- Pages libres pour notes ---
+\clearpage
+\thispagestyle{empty}
+\vspace*{-0.5cm}
+\noindent{\large\itshape\color{tassingreen} Pour écrire/coller des chansons oubliées ou tes créations...}
+\clearpage
+\thispagestyle{empty}
+\null
+\clearpage
+
+% --- Dictionnaire d'accords ---
+\clearpage
+\markboth{Dictionnaire d'accords}{Dictionnaire d'accords}
+\input{backmatter/chords}
+
+% --- Remerciements ---
+\input{backmatter/remerciements}
+
+% --- Quatrième de couverture ---
+\clearpage
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor=center, inner sep=0pt] at (current page.center) {%
+    \includegraphics[width=\paperwidth, height=\paperheight, keepaspectratio=false]{images/backcover.png}%
+  };
+\end{tikzpicture}
+\null
+
+\end{document}

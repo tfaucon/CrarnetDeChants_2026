@@ -1,0 +1,20 @@
+% Page de séparation thématique — design Tassin antique
+\newcommand{\songsectionpage}[1]{%
+  \clearpage
+  \thispagestyle{empty}%
+  \markboth{#1}{#1}%
+  \begin{tikzpicture}[remember picture, overlay]
+    % Bandeau rouge antique en haut
+    \fill[tassinred] (current page.north west) rectangle
+      ([yshift=-3.5cm]current page.north east);
+    % Accent vert antique fin
+    \fill[tassingreen] ([yshift=-3.5cm]current page.north west) rectangle
+      ([yshift=-3.8cm]current page.north east);
+  \end{tikzpicture}%
+  \vspace*{-1cm}%
+  \begin{center}%
+    {\fontsize{20}{24}\selectfont\bfseries\rmfamily\scshape\color{tassincream} #1}%
+  \end{center}%
+  \vspace*{\fill}%
+  \clearpage
+}

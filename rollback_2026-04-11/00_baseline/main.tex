@@ -1,0 +1,73 @@
+\documentclass[a5paper,twoside,10pt]{article}
+
+% --- Préambule ---
+\input{preamble/packages}
+\input{preamble/layout}
+\input{preamble/fonts}
+\input{preamble/songconfig}
+\input{preamble/commands}
+\input{preamble/chordmacros}
+
+% Index alphabétique des titres
+\newindex{titleidx}{main_title}
+
+\begin{document}
+
+% --- Page de titre ---
+\input{frontmatter/titlepage}
+\setcounter{page}{1}
+
+% --- LES NŒUDS ---
+%\input{extras/noeuds}
+
+% --- LES SGDF ---
+\songsectionpage{LES SGDF}
+\begin{songs}{titleidx}
+\input{songs/sgdf}
+\end{songs}
+
+% --- BÉNÉDICITÉ ---
+\songsectionpage{BÉNÉDICITÉ}
+\begin{songs}{titleidx}
+\input{songs/benedicite}
+\end{songs}
+
+% --- COIN DU FEU ---
+\songsectionpage{COIN DU FEU}
+\begin{songs}{titleidx}
+\input{songs/coindufeu}
+\end{songs}
+
+% --- COIN DU FEU ANGLAIS ---
+\songsectionpage{COIN DU FEU ANGLAIS}
+\begin{otherlanguage}{english}
+\begin{songs}{titleidx}
+\input{songs/coindufeu_anglais}
+\end{songs}
+\end{otherlanguage}
+
+% --- TEMPS SPI ---
+\songcolumns{3}
+\songsectionpage{TEMPS SPI}
+\begin{songs}{titleidx}
+\input{songs/tempsspi}
+\end{songs}
+
+% --- Index ---
+\input{backmatter/index}
+
+% --- Dictionnaire d'accords ---
+\clearpage
+\input{backmatter/chords}
+
+% --- Quatrième de couverture ---
+\clearpage
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture, overlay]
+  \node[anchor=center, inner sep=0pt] at (current page.center) {%
+    \includegraphics[width=\paperwidth, height=\paperheight, keepaspectratio=false]{images/backcover.png}%
+  };
+\end{tikzpicture}
+\null
+
+\end{document}

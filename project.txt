@@ -1,0 +1,16 @@
+Le but de ce projet est de créer un carnet de chants pour le groupe Scouts et Guides de France de Tassin.
+Basé sur une liste de chants (cf ListeDeChants.txt), classée par thèmes, qui sera mise à jour régulièrement, pour chaque chant:
+ - vérifier s'il est déjà dans le carnet de chant.
+ - s'il ne l'est pas, l'insérer
+ - s'il l'est, passer au chant suivant dans la liste.
+ - L'insertion d'un chant dans le carner consiste à:
+    - retrouver les paroles sur internet
+    - trouver les accords de guitare
+    - insérer les paroles et les accords dans la partie du carnet correspondant au thème du chant.
+
+Le carnet doit avoir un rendu professionnel (LaTex? autre proposition?)
+Il doit comporter un index.
+Le format est A5
+Dans le futur, il y aura des pages supplémentaires ajoutées dans le carnet (remerciements, textes, tutoriels pour le noeuds)
+Il faut maximiser l'espace de façon à pouvoir mettre le maximum de chants dans un nombre de pages données, tout en restant lisible
+

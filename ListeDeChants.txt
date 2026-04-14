@@ -1,0 +1,137 @@
+LES SGDF
+?  - Prière scoute
+  - Viens grandir avec les farfadets
+X  - La ronde des Farfadets
+X  - Farfadets, un nouveau monde
+X  - Allez viens
+X  - Au cœur de la planète
+X  - Promesse louveteaux jeannettes
+X  - Oser en grand
+X  - Avec ma tribu
+  - Vis tes rêves
+X  - La caravane
+X  - Je prends le relais
+X  - Changer le monde
+  - Lève-toi
+X  - Comme un accord
+X  - Jamboree
+X  - Des couleurs sur mon chemin
+X  - Le monsieur en chemise
+X  - Chant de la promesse traditionnel
+X  - Chant de la promesse
+X  - Ensemble on est mieux
+X  - Viens mélanger tes couleurs
+  - La promesse
+X  - Promesse
+X  - Red River Valley
+X  - Des signes de fraternité
+X  - Comme un appel
+X  - Le monde m'appelle
+X  - Promesse de scout
+  - La scoutance
+X  - Clameurs du monde
+X  - Des milliards de chemins
+  - La scoutitude
+X  - La strasbourgeoise
+X  - Le retour à la terre
+
+BÉNÉDICITÉ
+  - Sur l'air de « Vent frais »
+  - Sur l'air de « Frère Jacques »
+  - Quand la soupe bout dans la marmite
+  - Seigneur, toi qui donnes pâture
+  - Sur l'air de « Oh when the Saints »
+  - Nos cinq pains
+  - Le pain d'hier est rassis
+  - Un ami à droite
+
+COIN DU FEU
+X  - Les Champs Élysées
+X  - Santiano
+X  - Cendrillon
+X  - Qui peut faire de la voile sans vent
+X  - Ne sens-tu pas claquer tes doigts
+X  - Debout les gars
+X  - Le petit âne gris
+?  - Je cherche fortune
+X  - Armstrong
+X  - Chevaliers de la Table Ronde
+X  - Comme un homme
+X  - Il en faut peu pour être heureux
+X  - J't'emmène Au Vent
+X  - L'hymne de nos campagnes
+X  - Le lion est mort ce soir
+X  - Le matou revient
+X  - Nagawicka
+X  - Partenaire particulier
+X  - S.O.S. d'un terrien en détresse
+X  - Toi plus moi
+X  - Tout le bonheur du monde
+  - Un ami
+X  - Une belle histoire
+  - Un régiment de fromages blancs
+X  - Vent frais
+X  - On ira (Goldman)
+X  - On ira (Zaz)
+X  - Contre vents et marées
+X  - L'aventurier
+X  - J'ai une tante au Maroc
+X  - Derrière chez ma tante il y a un étang
+X  - La tribu de Dana
+X  - Les lacs du Connemara
+X  - À nos souvenirs
+X  - Petrouchka
+X  - J'veux du soleil
+X  - Sur ma route
+X  - La Bohème
+X  - La route
+X  - Y'a des zazous
+X  - 1987
+X  - Chants des sirènes
+X  - Ciel
+X  - Elle me dit
+X  - Emmenez-moi
+X  - Formidable
+X  - L'Amérique pleure
+X  - Les démons de minuit
+X  - Les prisons de Nantes
+X  - Le sud
+X  - Love
+X  - Mistral gagnant
+X  - San Francisco
+X  - T'en fais pas la vie est belle
+X  - Tous les cris les SOS
+
+COIN DU FEU (ANGLAIS)
+X  - Imagine
+X  - I'm Yours
+X  - Lemon Tree
+X  - Heal the world
+X  - Viva la vida
+X  - Riptide
+X  - This is the life
+X  - A sky full of stars
+X  - Here comes the sun
+X  - Another love
+X  - We are the champions
+X  - Zombie
+
+TEMPS SPI
+X  - La première en chemin
+X  - Evenou shalom halerem
+X  - Tiens ma lampe allumée
+X  - Une flamme en moi
+X  - Resucito
+X  - Psaume de la création
+X  - Laudate dominum
+X  - Oh happy day
+X  - Amazing Grace
+X  - Comment ne pas te louer
+X  - Couronnée d'étoiles
+X  - Jubilez, criez de joie
+X  - Que vive mon âme à te louer
+X  - Regarde l'étoile
+X  - Dans la joie
+X  - Ne rentrez pas chez vous comme avant
+X  - Voici le corps et le sang du seigneur
+X  - L'humilité de dieu

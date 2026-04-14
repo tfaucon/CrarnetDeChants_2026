@@ -1,0 +1,65 @@
+% --- Couleurs Scouts de Tassin (teintes antiques) ---
+\definecolor{tassingreen}{HTML}{006728}
+\definecolor{tassinlightgreen}{HTML}{E8F5E9}
+\definecolor{tassinred}{HTML}{D01010}
+\definecolor{tassinbrowngray}{HTML}{A69279}
+\definecolor{tassinlightbrown}{HTML}{D7CEC7}
+\definecolor{tassindarkbrown}{HTML}{6D5D4E}
+\definecolor{tassincream}{HTML}{F5F0EB}
+\definecolor{tassinparchment}{HTML}{F7F3ED}
+
+% Trois colonnes pour les chants
+\songcolumns{2}
+
+% Police par défaut : sans-serif
+\renewcommand{\familydefault}{\sfdefault}
+
+% --- Numéro de page décoré par le foulard de Tassin ---
+% Le foulard est placé en overlay (hors flux) pour ne réserver aucun espace
+% vertical dans l'en-tête. Le numéro est superposé sur le nœud (woggle).
+% anchor = coin de la page où accrocher l'image (north east / north west).
+\newcommand{\foulardpagenumLeft}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north west, inner sep=0pt, xshift=6mm, yshift=-6mm]
+      (foulard) at (current page.north west)
+      {\includegraphics[height=14mm]{images/foulardTassin}};
+    \node[anchor=center, font=\small\bfseries, color=black]
+      at ([yshift=3.5mm]foulard.center) {\thepage};
+  \end{tikzpicture}%
+}
+\newcommand{\foulardpagenumRight}{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north east, inner sep=0pt, xshift=-6mm, yshift=-6mm]
+      (foulard) at (current page.north east)
+      {\includegraphics[height=14mm]{images/foulardTassin}};
+    \node[anchor=center, font=\small\bfseries, color=black]
+      at ([yshift=3.5mm]foulard.center) {\thepage};
+  \end{tikzpicture}%
+}
+
+% --- En-têtes / pieds de page modernes ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\foulardpagenumLeft}
+\fancyhead[RO]{\foulardpagenumRight}
+\fancyhead[RE,LO]{\small\color{tassindarkbrown}\textit{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[LE]{\foulardpagenumLeft}%
+  \fancyhead[RO]{\foulardpagenumRight}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% Filet coloré sous l'en-tête
+\renewcommand{\headrule}{%
+  \vspace{-4pt}%
+  {\color{tassindarkbrown}\rule{\headwidth}{0.8pt}}%
+}
+
+% Pas d'indentation
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Fond de page parchemin
+\pagecolor{tassinparchment}

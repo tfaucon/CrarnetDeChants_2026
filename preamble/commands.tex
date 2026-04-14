@@ -1,0 +1,28 @@
+% Wrapper pour changer le nombre de colonnes d'un chant individuel.
+\newcommand{\songcols}[1]{\songcolumns{#1}}
+
+% Page de séparation thématique — papier déchiré + pictos
+% #1 = titre de la section
+% #2 = image du papier (ex: images/papier-vert.png)
+% #3 = bloc tikz de pictos (nœuds tikz pré-générés)
+\newcommand{\songsectionpage}[3]{%
+  \clearpage
+  \thispagestyle{empty}%
+  \markboth{#1}{#1}%
+  \begin{tikzpicture}[remember picture, overlay]
+    % Fond de page section
+    \fill[fill={rgb,255:red,243;green,236;blue,189}] (current page.south west) rectangle (current page.north east);
+    % Papier déchiré en bandeau horizontal (image portrait tournée 90°)
+    \node[anchor=center, rotate=90, inner sep=0pt]
+      at (current page.center)
+      {\includegraphics[width=0.65\paperheight]{#2}};
+    % Pictos par-dessus le bandeau
+    #3
+    % Titre en blanc par-dessus tout
+    \node[anchor=center,
+          font=\fontsize{36}{42}\selectfont\bfseries\rmfamily\scshape,
+          text=white]
+      at (current page.center) {#1};
+  \end{tikzpicture}%
+  \clearpage
+}

@@ -1,0 +1,40 @@
+% Chord diagram drawing macros
+\newcommand{\chmark}[2]{%
+  \pgfmathtruncatemacro{\xp}{6-#1}%
+  \node[circle, fill=tassindarkbrown, minimum size=5.5pt, inner sep=0pt] at (\xp, {-#2+0.5}) {};%
+}
+\newcommand{\barre}[3]{%
+  \pgfmathtruncatemacro{\xa}{6-#1}%
+  \pgfmathtruncatemacro{\xb}{6-#2}%
+  \draw[tassindarkbrown, line width=2pt, line cap=round] (\xb, {-#3+0.5}) -- (\xa, {-#3+0.5});%
+}
+\newcommand{\omark}[1]{%
+  \pgfmathtruncatemacro{\xp}{6-#1}%
+  \node[draw=tassingreen, circle, inner sep=0.8pt, line width=0.35pt, font=\tiny] at (\xp, 0.45) {};%
+}
+\newcommand{\xmark}[1]{%
+  \pgfmathtruncatemacro{\xp}{6-#1}%
+  \node[font=\tiny\bfseries, text=tassinred] at (\xp, 0.45) {\textsf{x}};%
+}
+\newcommand{\fretnum}[1]{%
+  \node[anchor=east, font=\sffamily\tiny\color{tassindarkbrown}] at (-0.3, -0.5) {#1\,fr};%
+}
+\newlength{\chordwidth}
+\setlength{\chordwidth}{16mm}
+\newcommand{\cspace}{\hspace{2.5mm}}
+\newcommand{\rootsection}[1]{%
+  \vspace{3pt}%
+  {\sffamily\large\bfseries\color{tassingreen}#1}\,%
+  \textcolor{tassinlightbrown}{\leaders\hrule height 0.5pt\hfill\kern0pt}%
+  \vspace{2pt}\par\noindent%
+}
+\newenvironment{chordbox}[2]{%
+  \begin{minipage}[t]{\chordwidth}\centering\begin{tikzpicture}[scale=0.28, every node/.style={inner sep=0pt}]
+    \foreach \f in {0,...,4} { \draw[tassinbrowngray, line width=0.3pt] (0,{-\f}) -- (5,{-\f}); }
+    \foreach \s in {0,...,5} { \draw[tassinbrowngray, line width=0.3pt] (\s,0) -- (\s,-4); }
+    \ifnum#2=0 \draw[tassindarkbrown, line width=1.5pt] (-0.05,0.03) -- (5.05,0.03);
+    \else \fretnum{#2} \fi
+    \node[anchor=north, font=\sffamily\bfseries\footnotesize, text=tassinred] at (2.5, -4.45) {#1};
+}{%
+  \end{tikzpicture}\end{minipage}%
+}
