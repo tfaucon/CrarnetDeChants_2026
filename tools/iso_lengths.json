@@ -1,0 +1,446 @@
+{
+  "songs/sgdf/01_priere_scoute": {
+    "2": 261.9992370605469
+  },
+  "songs/sgdf/02_viens_grandir_avec_les_farfadets": {
+    "2": 983.5797424316406
+  },
+  "songs/sgdf/03_la_ronde_des_farfadets": {
+    "2": 773.6690063476562
+  },
+  "songs/sgdf/05_allez_viens": {
+    "2": 853.2993011474609
+  },
+  "songs/sgdf/06_au_cur_de_la_planete": {
+    "2": 671.4020385742188
+  },
+  "songs/sgdf/08_oser_en_grand": {
+    "2": 597.3599853515625
+  },
+  "songs/sgdf/09_avec_ma_tribu": {
+    "2": 772.0402679443359
+  },
+  "songs/sgdf/39_l_animaqua": {
+    "2": 684.5975952148438
+  },
+  "songs/sgdf/10_vis_tes_reves": {
+    "2": 1013.5709228515625
+  },
+  "songs/sgdf/12_je_prends_le_relais": {
+    "2": 1008.9480895996094
+  },
+  "songs/sgdf/13_changer_le_monde": {
+    "2": 1077.8614654541016
+  },
+  "songs/sgdf/14_leve_toi": {
+    "2": 981.5290374755859
+  },
+  "songs/sgdf/15_comme_un_accord": {
+    "2": 850.4230194091797
+  },
+  "songs/sgdf/16_jamboree": {
+    "2": 917.7132873535156
+  },
+  "songs/sgdf/17_des_couleurs_sur_mon_chemin": {
+    "2": 769.3193054199219
+  },
+  "songs/sgdf/18_le_monsieur_en_chemise": {
+    "2": 1937.7716369628906
+  },
+  "songs/sgdf/21_ensemble_on_est_mieux": {
+    "2": 1270.2885131835938
+  },
+  "songs/sgdf/22_viens_melanger_tes_couleurs": {
+    "2": 558.2692565917969
+  },
+  "songs/sgdf/23_la_promesse": {
+    "2": 1319.2383728027344
+  },
+  "songs/sgdf/24_red_river_valley": {
+    "2": 677.2288208007812
+  },
+  "songs/sgdf/25_des_signes_de_fraternite": {
+    "2": 921.3704223632812
+  },
+  "songs/sgdf/26_comme_un_appel": {
+    "2": 471.87744140625
+  },
+  "songs/sgdf/28_promesse_de_scout": {
+    "2": 1739.3564453125
+  },
+  "songs/sgdf/29_la_scoutance": {
+    "2": 1001.7751159667969
+  },
+  "songs/sgdf/30_clameurs_du_monde": {
+    "2": 1024.7640991210938
+  },
+  "songs/sgdf/32_la_scoutitude": {
+    "2": 997.3248443603516
+  },
+  "songs/sgdf/37_et_toi_compagnon": {
+    "2": 688.7652587890625
+  },
+  "songs/sgdf/38_tous_a_l_ouest": {
+    "2": 674.3612823486328
+  },
+  "songs/coindufeu/01_les_champs_elysees": {
+    "2": 553.6920013427734
+  },
+  "songs/coindufeu/02_santiano": {
+    "2": 660.7769927978516
+  },
+  "songs/coindufeu/03_cendrillon": {
+    "2": 981.2951812744141
+  },
+  "songs/coindufeu/05_ne_sens_tu_pas_claquer_tes_doigts": {
+    "2": 679.8412780761719
+  },
+  "songs/coindufeu/09_armstrong": {
+    "2": 720.3136291503906
+  },
+  "songs/coindufeu/11_comme_un_homme": {
+    "2": 878.770751953125
+  },
+  "songs/coindufeu/12_il_en_faut_peu_pour_etre_heureux": {
+    "2": 855.4356384277344
+  },
+  "songs/coindufeu/13_j_t_emmene_au_vent": {
+    "2": 472.6305236816406
+  },
+  "songs/coindufeu/14_l_hymne_de_nos_campagnes": {
+    "2": 1154.1151123046875
+  },
+  "songs/coindufeu/16_le_matou_revient": {
+    "2": 841.0697784423828
+  },
+  "songs/coindufeu/17_nagawicka": {
+    "2": 549.2008361816406
+  },
+  "songs/coindufeu/18_partenaire_particulier": {
+    "2": 613.2618560791016
+  },
+  "songs/coindufeu/19_s_o_s_d_un_terrien_en_detresse": {
+    "2": 845.6346282958984
+  },
+  "songs/coindufeu/20_toi_plus_moi": {
+    "2": 660.1689453125
+  },
+  "songs/coindufeu/21_tout_le_bonheur_du_monde": {
+    "2": 762.6710510253906
+  },
+  "songs/coindufeu/22_hakuna_matata": {
+    "2": 632.6748352050781
+  },
+  "songs/coindufeu/23_une_belle_histoire": {
+    "2": 979.2359771728516
+  },
+  "songs/coindufeu/25_vent_frais": {
+    "2": 282.4071502685547
+  },
+  "songs/coindufeu/26_on_ira": {
+    "2": 824.9737396240234
+  },
+  "songs/coindufeu/27_on_ira": {
+    "2": 1237.266616821289
+  },
+  "songs/coindufeu/28_contre_vents_et_marees": {
+    "2": 1910.5848999023438
+  },
+  "songs/coindufeu/29_l_aventurier": {
+    "2": 724.921142578125
+  },
+  "songs/coindufeu/30_j_ai_une_tante_au_maroc": {
+    "2": 544.0054016113281
+  },
+  "songs/coindufeu/31_derriere_chez_ma_tante_il_y_a_un_etang": {
+    "2": 633.5693206787109
+  },
+  "songs/coindufeu/32_la_tribu_de_dana": {
+    "2": 1811.2101745605469
+  },
+  "songs/coindufeu/33_les_lacs_du_connemara": {
+    "2": 1020.0511169433594
+  },
+  "songs/coindufeu/33_la_strasbourgeoise": {
+    "2": 1143.8092803955078
+  },
+  "songs/coindufeu/34_a_nos_souvenirs": {
+    "2": 1332.1189880371094
+  },
+  "songs/coindufeu/34_le_retour_a_la_terre": {
+    "2": 2099.916961669922
+  },
+  "songs/coindufeu/37_sur_ma_route": {
+    "2": 917.9442749023438
+  },
+  "songs/coindufeu/38_la_boheme": {
+    "2": 1177.885726928711
+  },
+  "songs/coindufeu/39_la_route": {
+    "2": 560.8685302734375
+  },
+  "songs/coindufeu/40_y_a_des_zazous": {
+    "2": 635.1851654052734
+  },
+  "songs/coindufeu/42_le_chant_des_sirenes": {
+    "2": 910.5989227294922
+  },
+  "songs/coindufeu/43_ciel": {
+    "2": 471.2844543457031
+  },
+  "songs/coindufeu/44_elle_me_dit": {
+    "2": 1305.1123504638672
+  },
+  "songs/coindufeu/45_emmenez_moi": {
+    "2": 1182.9835510253906
+  },
+  "songs/coindufeu/46_formidable": {
+    "2": 875.4227905273438
+  },
+  "songs/coindufeu/47_l_amerique_pleure": {
+    "2": 2356.8016967773438
+  },
+  "songs/coindufeu/48_les_demons_de_minuit": {
+    "2": 395.3941192626953
+  },
+  "songs/coindufeu/49_les_prisons_de_nantes": {
+    "2": 752.7398834228516
+  },
+  "songs/coindufeu/50_le_sud": {
+    "2": 750.2896881103516
+  },
+  "songs/coindufeu/51_love": {
+    "2": 457.44598388671875
+  },
+  "songs/coindufeu/52_mistral_gagnant": {
+    "2": 1142.544204711914
+  },
+  "songs/coindufeu/53_san_francisco": {
+    "2": 1128.7789611816406
+  },
+  "songs/coindufeu/55_tous_les_cris_les_sos": {
+    "2": 863.9610137939453
+  },
+  "songs/coindufeu/58_au_dela_des_cedres": {
+    "2": 558.6400909423828
+  },
+  "songs/coindufeu/60_les_copains_d_abord": {
+    "2": 1328.7948455810547
+  },
+  "songs/coindufeu/61_ce_reve_bleu": {
+    "2": 957.8184814453125
+  },
+  "songs/coindufeu/62_jolie_bouteille": {
+    "2": 535.2553863525391
+  },
+  "songs/coindufeu_anglais/01_imagine": {
+    "2": 565.8342742919922
+  },
+  "songs/coindufeu_anglais/02_i_m_yours": {
+    "2": 1327.2988586425781
+  },
+  "songs/coindufeu_anglais/03_lemon_tree": {
+    "2": 800.0892791748047
+  },
+  "songs/coindufeu_anglais/04_heal_the_world": {
+    "2": 1132.6024627685547
+  },
+  "songs/coindufeu_anglais/05_viva_la_vida": {
+    "2": 944.0783538818359
+  },
+  "songs/coindufeu_anglais/06_riptide": {
+    "2": 684.4909515380859
+  },
+  "songs/coindufeu_anglais/07_this_is_the_life": {
+    "2": 585.3922119140625
+  },
+  "songs/coindufeu_anglais/08_a_sky_full_of_stars": {
+    "2": 487.7032165527344
+  },
+  "songs/coindufeu_anglais/09_here_comes_the_sun": {
+    "2": 350.78009033203125
+  },
+  "songs/coindufeu_anglais/10_another_love": {
+    "2": 695.4581604003906
+  },
+  "songs/coindufeu_anglais/11_we_are_the_champions": {
+    "2": 723.4359741210938
+  },
+  "songs/coindufeu_anglais/12_zombie": {
+    "2": 560.5453643798828
+  },
+  "songs/coindufeu_anglais/13_forever_young": {
+    "2": 816.5413360595703
+  },
+  "songs/coindufeu_anglais/14_the_sound_of_silence": {
+    "2": 956.3926696777344
+  },
+  "songs/coindufeu_anglais/15_the_boxer": {
+    "2": 1274.2837219238281
+  },
+  "songs/coindufeu_anglais/16_the_partisan": {
+    "2": 985.9610748291016
+  },
+  "songs/coindufeu_anglais/17_hallelujah": {
+    "2": 958.7718048095703
+  },
+  "songs/tempsspi/01_la_premiere_en_chemin": {
+    "2": 788.2857513427734
+  },
+  "songs/tempsspi/02_hevenu_shalom_alechem": {
+    "2": 628.26123046875
+  },
+  "songs/tempsspi/03_tiens_ma_lampe_allumee": {
+    "2": 545.2220458984375
+  },
+  "songs/tempsspi/04_une_flamme_en_moi": {
+    "2": 508.9526672363281
+  },
+  "songs/tempsspi/05_resucito": {
+    "2": 295.61920166015625
+  },
+  "songs/tempsspi/06_psaume_de_la_creation": {
+    "2": 747.7977905273438
+  },
+  "songs/tempsspi/07_laudate_dominum": {
+    "2": 103.25819396972656
+  },
+  "songs/tempsspi/08_oh_happy_day": {
+    "2": 642.55224609375
+  },
+  "songs/tempsspi/09_amazing_grace": {
+    "2": 545.1208343505859
+  },
+  "songs/tempsspi/10_comment_ne_pas_te_louer": {
+    "2": 347.5420227050781
+  },
+  "songs/tempsspi/11_couronnee_d_etoiles": {
+    "2": 614.5202941894531
+  },
+  "songs/tempsspi/13_que_vive_mon_ame_a_te_louer": {
+    "2": 451.38525390625
+  },
+  "songs/tempsspi/14_regarde_l_etoile": {
+    "2": 654.1626434326172
+  },
+  "songs/tempsspi/16_ne_rentrez_pas_chez_vous_comme_avant": {
+    "2": 433.62416076660156
+  },
+  "songs/tempsspi/18_regardez_l_humilite_de_dieu": {
+    "2": 323.5758056640625
+  },
+  "songs/tempsspi/35_le_vent_des_prophetes": {
+    "2": 613.1916809082031
+  },
+  "songs/tempsspi/20_ave_maria_glorious": {
+    "2": 618.3091278076172
+  },
+  "songs/sgdf/04_farfadets_un_nouveau_monde": {
+    "3": 822.3822937011719
+  },
+  "songs/sgdf/07_promesse_louveteaux_jeannettes": {
+    "3": 961.3476715087891
+  },
+  "songs/sgdf/11_la_caravane": {
+    "3": 938.3414459228516
+  },
+  "songs/sgdf/19_chant_de_la_promesse_traditionnel": {
+    "3": 659.7174530029297
+  },
+  "songs/sgdf/20_chant_de_la_promesse": {
+    "3": 914.8704833984375
+  },
+  "songs/sgdf/27_le_monde_m_appelle": {
+    "3": 1050.3653411865234
+  },
+  "songs/sgdf/31_des_milliards_de_chemins": {
+    "3": 1375.5034942626953
+  },
+  "songs/sgdf/36_tassin_forever": {
+    "3": 1031.8111267089844
+  },
+  "songs/coindufeu/04_qui_peut_faire_de_la_voile_sans_vent": {
+    "3": 906.9161376953125
+  },
+  "songs/coindufeu/06_debout_les_gars": {
+    "3": 883.2733764648438
+  },
+  "songs/coindufeu/07_le_petit_ane_gris": {
+    "3": 1143.3084259033203
+  },
+  "songs/coindufeu/08_je_cherche_fortune": {
+    "3": 970.6953735351562
+  },
+  "songs/coindufeu/10_chevaliers_de_la_table_ronde": {
+    "3": 926.1366424560547
+  },
+  "songs/coindufeu/15_le_lion_est_mort_ce_soir": {
+    "3": 586.9593658447266
+  },
+  "songs/coindufeu/24_un_regiment_de_fromages_blancs_mkII": {
+    "3": 231.2755126953125
+  },
+  "songs/coindufeu/35_petrouchka": {
+    "3": 825.8637390136719
+  },
+  "songs/coindufeu/36_j_veux_du_soleil": {
+    "3": 839.4419403076172
+  },
+  "songs/coindufeu/41_1987": {
+    "3": 1073.979751586914
+  },
+  "songs/coindufeu/54_t_en_fais_pas_la_vie_est_belle": {
+    "3": 103.72584533691406
+  },
+  "songs/coindufeu/57_la_blanche_hermine": {
+    "3": 737.6754150390625
+  },
+  "songs/coindufeu/59_bye_bye_lou": {
+    "3": 1645.3475646972656
+  },
+  "songs/tempsspi/15_dans_la_joie": {
+    "3": 434.76853942871094
+  },
+  "songs/tempsspi/17_voici_le_corps_et_le_sang_du_seigneur": {
+    "3": 997.2823791503906
+  },
+  "songs/tempsspi/19_ma_passion": {
+    "3": 873.7680969238281
+  },
+  "songs/tempsspi/12_jubilez_criez_de_joie": {
+    "3": 735.9972686767578
+  },
+  "songs/tempsspi/21_que_ma_bouche_chante_ta_louange": {
+    "3": 1722.1620483398438
+  },
+  "songs/benedicite/01_sur_l_air_de_vent_frais": {
+    "4": 140.5330810546875
+  },
+  "songs/benedicite/02_sur_l_air_de_frere_jacques": {
+    "4": 140.5330810546875
+  },
+  "songs/benedicite/03_quand_la_soupe_bout_dans_la_marmite": {
+    "4": 279.129638671875
+  },
+  "songs/benedicite/04_seigneur_toi_qui_donnes_pature": {
+    "4": 186.73193359375
+  },
+  "songs/benedicite/05_sur_l_air_de_oh_when_the_saints": {
+    "4": 186.73193359375
+  },
+  "songs/benedicite/06_nos_cinq_pains": {
+    "4": 209.83135986328125
+  },
+  "songs/benedicite/07_le_pain_d_hier_est_rassis": {
+    "4": 223.43621826171875
+  },
+  "songs/benedicite/08_un_ami_a_droite": {
+    "4": 296.89073181152344
+  },
+  "songs/benedicite/09_sur_l_air_de_l_hymne_a_la_joie": {
+    "4": 512.0604248046875
+  },
+  "songs/benedicite/10_sur_l_air_de_a_la_claire_fontaine": {
+    "4": 638.0437927246094
+  }
+}

@@ -1,0 +1,45 @@
+% Instrumentation to measure per-song linear length in the actual layout.
+% Uses zref-savepos (two-pass): first run records savepos into aux,
+% second run has \zposx/\zposy available and writes the .smeas sidecar.
+\usepackage{zref-savepos,zref-abspage}
+\makeatletter
+\zref@addprop{savepos}{abspage}
+\makeatother
+\newcounter{mysong}
+\setcounter{mysong}{0}
+\newwrite\measfile
+\AtBeginDocument{\immediate\openout\measfile=\jobname.smeas\relax}
+\AtEndDocument{\immediate\closeout\measfile}
+
+\makeatletter
+\let\SBorig@beginsong\beginsong
+\renewcommand\beginsong[1]{%
+  \stepcounter{mysong}%
+  \edef\@curmysong{\themysong}%
+  \SBorig@beginsong{#1}%
+  \zsavepos{mysB-\@curmysong}%
+  \protected@write\measfile{}{BEG|\@curmysong|\zposx{mysB-\@curmysong}|\zposy{mysB-\@curmysong}|\zref@extractdefault{mysB-\@curmysong}{abspage}{0}}%
+}
+
+\let\SBorig@SBendsong\SB@endsong
+\renewcommand\SB@endsong{%
+  \zsavepos{mysE-\themysong}%
+  \protected@write\measfile{}{END|\themysong|\zposx{mysE-\themysong}|\zposy{mysE-\themysong}|\zref@extractdefault{mysE-\themysong}{abspage}{0}}%
+  \SBorig@SBendsong%
+}
+
+% Dump geometry info once at begin-document
+\AtBeginDocument{%
+  \immediate\write\measfile{META|textheight|\the\textheight}%
+  \immediate\write\measfile{META|textwidth|\the\textwidth}%
+  \immediate\write\measfile{META|columnsep|\the\columnsep}%
+  \immediate\write\measfile{META|paperheight|\the\paperheight}%
+  \immediate\write\measfile{META|paperwidth|\the\paperwidth}%
+  \immediate\write\measfile{META|topmargin|\the\topmargin}%
+  \immediate\write\measfile{META|headheight|\the\headheight}%
+  \immediate\write\measfile{META|headsep|\the\headsep}%
+  \immediate\write\measfile{META|versesep|\the\versesep}%
+  \immediate\write\measfile{META|afterpreludeskip|\the\afterpreludeskip}%
+  \immediate\write\measfile{META|beforepostludeskip|\the\beforepostludeskip}%
+}
+\makeatother

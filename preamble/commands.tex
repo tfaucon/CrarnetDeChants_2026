@@ -5,16 +5,21 @@
 % #1 = titre de la section
 % #2 = image du papier (ex: images/papier-vert.png)
 % #3 = bloc tikz de pictos (nœuds tikz pré-générés)
+% Décalage du contenu pour centrer dans la zone de texte (marges asymétriques)
+\newlength{\sectionpageshift}
+\setlength{\sectionpageshift}{0.5\dimexpr\oddsidemargin-\evensidemargin\relax}
 \newcommand{\songsectionpage}[3]{%
-  \clearpage
+  \cleardoublepage
   \thispagestyle{empty}%
   \markboth{#1}{#1}%
   \begin{tikzpicture}[remember picture, overlay]
-    % Fond de page section
+    % Centre de la zone de texte (décalé par rapport au centre de la page)
+    \coordinate (contentcenter) at ([xshift=\sectionpageshift]current page.center);
+    % Fond de page section (couvre toute la page)
     \fill[fill={rgb,255:red,243;green,236;blue,189}] (current page.south west) rectangle (current page.north east);
     % Papier déchiré en bandeau horizontal (image portrait tournée 90°)
     \node[anchor=center, rotate=90, inner sep=0pt]
-      at (current page.center)
+      at (contentcenter)
       {\includegraphics[width=0.65\paperheight]{#2}};
     % Pictos par-dessus le bandeau
     #3
@@ -22,7 +27,75 @@
     \node[anchor=center,
           font=\fontsize{36}{42}\selectfont\bfseries\rmfamily\scshape,
           text=white]
-      at (current page.center) {#1};
+      at (contentcenter) {#1};
   \end{tikzpicture}%
   \clearpage
 }
+
+% Variante pour image de bandeau déjà en paysage (pas de rotation)
+\newcommand{\songsectionpageh}[3]{%
+  \cleardoublepage
+  \thispagestyle{empty}%
+  \markboth{#1}{#1}%
+  \begin{tikzpicture}[remember picture, overlay]
+    \coordinate (contentcenter) at ([xshift=\sectionpageshift]current page.center);
+    \fill[fill={rgb,255:red,243;green,236;blue,189}] (current page.south west) rectangle (current page.north east);
+    % Papier déchiré — image déjà en paysage, pas de rotation
+    \node[anchor=center, inner sep=0pt]
+      at (contentcenter)
+      {\includegraphics[width=0.95\paperwidth]{#2}};
+    #3
+    \node[anchor=center,
+          font=\fontsize{36}{42}\selectfont\bfseries\rmfamily\scshape,
+          text=white]
+      at (contentcenter) {#1};
+  \end{tikzpicture}%
+  \clearpage
+}
+
+% --- Pastilles colorées de section dans l'index ---
+% Couleurs extraites des bandeaux de papier déchiré
+\definecolor{idxsec1}{HTML}{4EC983}  % SGDF (papier-vert)
+\definecolor{idxsec2}{HTML}{EE8800}  % Bénédicités (papier-orange)
+\definecolor{idxsec3}{HTML}{2196F3}  % Coin du feu (papier-bleu)
+\definecolor{idxsec4}{HTML}{D32F2F}  % Chansons du monde (papier-rouge)
+\definecolor{idxsec5}{HTML}{00695C}  % Temps spi (papier-vert compa)
+
+\makeatletter
+% Extraction du numéro de section par pattern-matching direct
+% \songlink{songN-...}{page} → on extrait N
+\def\idx@grabsec\songlink#1#2#3\idx@stop{\idx@colorfromsec#1\idx@stop}
+\def\idx@colorfromsec song#1-#2\idx@stop{%
+  \mbox{\raisebox{0.2ex}{\tikz{\node[circle, fill=idxsec#1, minimum size=4.5pt, inner sep=0pt] {};}}}%
+  \hspace{1pt}%
+}
+
+% Dessiner la pastille colorée avant le titre
+\newcommand{\idxsecdisc}[1]{%
+  \idx@grabsec#1\idx@stop
+}
+
+% Redéfinir le rendu de l'index des titres pour ajouter les pastilles
+\renewcommand\SB@maketitleindex{%
+  \ifnum\idxheadwidth>\z@%
+    \renewenvironment{SB@lgidx}[1]{
+      \hbox{\SB@colorbox\idxbgcolor{\vbox{%
+        \hbox to\idxheadwidth{{\idxheadfont\relax##1}\hfil}%
+      }}}%
+      \nobreak\vskip3\p@\@plus2\p@\@minus2\p@\nointerlineskip%
+    }{\penalty-50\vskip5\p@\@plus5\p@\@minus4\p@}%
+  \else%
+    \renewenvironment{SB@lgidx}[1]{}{}%
+  \fi%
+  \renewenvironment{SB@smidx}[1]{}{}%
+  \renewcommand\idxentry[2]{%
+    \SB@ellipspread{\idxsecdisc{##2}\idxtitlefont\relax\ignorespaces##1\unskip}%
+                   {{\idxrefsfont\relax##2}}%
+  }%
+  \renewcommand\idxaltentry[2]{%
+    \SB@ellipspread{\idxlyricfont\relax\ignorespaces##1\unskip}%
+                   {{\idxrefsfont\relax##2}}%
+  }%
+  \SB@displayindex%
+}
+\makeatother

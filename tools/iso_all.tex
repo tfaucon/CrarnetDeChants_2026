@@ -1,0 +1,57 @@
+% Measures every song on its own ultra-tall page at target column width.
+% Compile twice (zref 2-pass). Reads one of three col-widths via __COLW__ and __CSVLIST__.
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french,english]{babel}
+\usepackage{lmodern}
+\usepackage[scaled=0.92]{helvet}
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+\usepackage[paperwidth=__COLW__pt, paperheight=5000pt,
+            top=0pt, bottom=0pt, left=0pt, right=0pt,
+            headheight=0pt, headsep=0pt, footskip=0pt]{geometry}
+\usepackage[chorded]{songs}
+\songcolumns{1}
+\usepackage{graphicx}
+\usepackage{zref-savepos,zref-abspage}
+\makeatletter\zref@addprop{savepos}{abspage}\makeatother
+\pagestyle{empty}
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\newcounter{mysong}
+\setcounter{mysong}{0}
+\newwrite\mf
+\makeatletter
+\let\SBorig@beginsong\beginsong
+\renewcommand\beginsong[1]{%
+  \stepcounter{mysong}%
+  \edef\@curmysong{\themysong}%
+  \SBorig@beginsong{#1}%
+  \zsavepos{B-\@curmysong}%
+}
+\let\SBorig@SBendsong\SB@endsong
+\renewcommand\SB@endsong{%
+  \zsavepos{E-\themysong}%
+  \SBorig@SBendsong%
+}
+\makeatother
+\begin{document}
+\immediate\openout\mf=\jobname.iso
+\begin{songs}{}
+__INPUTLIST__
+\end{songs}
+\makeatletter
+\AtEndDocument{%
+  \newcount\myi\myi=1
+  \loop\ifnum\myi<\value{mysong}
+    \edef\line{\the\myi\space \zposy{B-\the\myi}\space \zposy{E-\the\myi}\space \zref@extractdefault{B-\the\myi}{abspage}{0}\space \zref@extractdefault{E-\the\myi}{abspage}{0}}%
+    \immediate\write\mf{\line}%
+    \advance\myi by 1
+  \repeat
+  \edef\line{\the\myi\space \zposy{B-\the\myi}\space \zposy{E-\the\myi}\space \zref@extractdefault{B-\the\myi}{abspage}{0}\space \zref@extractdefault{E-\the\myi}{abspage}{0}}%
+  \immediate\write\mf{\line}%
+  \immediate\closeout\mf%
+}
+\makeatother
+\end{document}

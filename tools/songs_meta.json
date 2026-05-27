@@ -1,0 +1,2685 @@
+{
+  "meta": {
+    "textheight": "330.05199pt",
+    "textwidth": "483.69687pt",
+    "columnsep": "12.0pt",
+    "paperheight": "421.10078pt",
+    "paperwidth": "597.50787pt",
+    "topmargin": "-45.05504pt",
+    "headheight": "16.0pt",
+    "headsep": "8.0pt",
+    "versesep": "3.0pt plus 2.0pt minus 1.0pt",
+    "afterpreludeskip": "1.0pt plus 1.0pt minus 1.0pt",
+    "beforepostludeskip": "6.0pt plus 4.0pt minus 2.0pt"
+  },
+  "textheight": 330.05199,
+  "textwidth": 483.69687,
+  "columnsep": 12.0,
+  "versesep": 3.0,
+  "songs": [
+    {
+      "id": 37,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/10_sur_l_air_de_a_la_claire_fontaine",
+      "begin": [
+        40,
+        0,
+        349.25701904296875
+      ],
+      "end": [
+        40,
+        0,
+        58.69874572753906
+      ],
+      "length_pt": 290.5582733154297,
+      "id_end": 37
+    },
+    {
+      "id": 38,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/09_sur_l_air_de_l_hymne_a_la_joie",
+      "begin": [
+        40,
+        1,
+        345.7544860839844
+      ],
+      "end": [
+        40,
+        2,
+        152.32815551757812
+      ],
+      "length_pt": 329.986572265625,
+      "id_end": 39
+    },
+    {
+      "id": 40,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/08_un_ami_a_droite",
+      "begin": [
+        40,
+        3,
+        356.3918151855469
+      ],
+      "end": [
+        40,
+        3,
+        187.8075714111328
+      ],
+      "length_pt": 168.58424377441406,
+      "id_end": 40
+    },
+    {
+      "id": 41,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/03_quand_la_soupe_bout_dans_la_marmite",
+      "begin": [
+        41,
+        0,
+        347.595458984375
+      ],
+      "end": [
+        41,
+        0,
+        154.2058563232422
+      ],
+      "length_pt": 193.3896026611328,
+      "id_end": 41
+    },
+    {
+      "id": 42,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/07_le_pain_d_hier_est_rassis",
+      "begin": [
+        41,
+        1,
+        356.998779296875
+      ],
+      "end": [
+        41,
+        1,
+        226.92422485351562
+      ],
+      "length_pt": 130.07455444335938,
+      "id_end": 42
+    },
+    {
+      "id": 43,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/06_nos_cinq_pains",
+      "begin": [
+        41,
+        1,
+        190.31358337402344
+      ],
+      "end": [
+        41,
+        1,
+        64.302978515625
+      ],
+      "length_pt": 126.01060485839844,
+      "id_end": 43
+    },
+    {
+      "id": 44,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/05_sur_l_air_de_oh_when_the_saints",
+      "begin": [
+        41,
+        2,
+        350.90724182128906
+      ],
+      "end": [
+        41,
+        2,
+        224.7819061279297
+      ],
+      "length_pt": 126.12533569335938,
+      "id_end": 44
+    },
+    {
+      "id": 45,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/04_seigneur_toi_qui_donnes_pature",
+      "begin": [
+        41,
+        2,
+        177.98272705078125
+      ],
+      "end": [
+        41,
+        2,
+        67.41743469238281
+      ],
+      "length_pt": 110.56529235839844,
+      "id_end": 45
+    },
+    {
+      "id": 46,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/01_sur_l_air_de_vent_frais",
+      "begin": [
+        41,
+        3,
+        359.0595245361328
+      ],
+      "end": [
+        41,
+        3,
+        264.5432586669922
+      ],
+      "length_pt": 94.51626586914062,
+      "id_end": 46
+    },
+    {
+      "id": 47,
+      "section": "benedicite",
+      "cols": 4,
+      "path": "songs/benedicite/02_sur_l_air_de_frere_jacques",
+      "begin": [
+        41,
+        3,
+        221.06912231445312
+      ],
+      "end": [
+        41,
+        3,
+        142.0150909423828
+      ],
+      "length_pt": 79.05403137207031,
+      "id_end": 47
+    },
+    {
+      "id": 48,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/19_s_o_s_d_un_terrien_en_detresse",
+      "begin": [
+        43,
+        0,
+        357.8301239013672
+      ],
+      "end": [
+        43,
+        1,
+        132.01185607910156
+      ],
+      "length_pt": 555.8702578222656,
+      "id_end": 48
+    },
+    {
+      "id": 49,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/47_l_amerique_pleure",
+      "begin": [
+        44,
+        0,
+        356.47003173828125
+      ],
+      "end": [
+        46,
+        0,
+        231.1595916748047
+      ],
+      "length_pt": 1445.5184000634765,
+      "id_end": 49
+    },
+    {
+      "id": 50,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/34_le_retour_a_la_terre",
+      "begin": [
+        47,
+        0,
+        355.40696716308594
+      ],
+      "end": [
+        48,
+        0,
+        71.93965148925781
+      ],
+      "length_pt": 943.5712956738281,
+      "id_end": 50
+    },
+    {
+      "id": 51,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/48_les_demons_de_minuit",
+      "begin": [
+        49,
+        0,
+        356.88885498046875
+      ],
+      "end": [
+        49,
+        0,
+        159.4715576171875
+      ],
+      "length_pt": 197.41729736328125,
+      "id_end": 51
+    },
+    {
+      "id": 52,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/28_contre_vents_et_marees",
+      "begin": [
+        49,
+        1,
+        356.77088928222656
+      ],
+      "end": [
+        51,
+        0,
+        190.59780883789062
+      ],
+      "length_pt": 1156.329050444336,
+      "id_end": 52
+    },
+    {
+      "id": 53,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/18_partenaire_particulier",
+      "begin": [
+        52,
+        0,
+        356.22389221191406
+      ],
+      "end": [
+        52,
+        1,
+        263.5944061279297
+      ],
+      "length_pt": 422.68147608398436,
+      "id_end": 53
+    },
+    {
+      "id": 54,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/32_la_tribu_de_dana",
+      "begin": [
+        53,
+        0,
+        355.4077606201172
+      ],
+      "end": [
+        54,
+        0,
+        115.4857177734375
+      ],
+      "length_pt": 900.0260228466797,
+      "id_end": 54
+    },
+    {
+      "id": 55,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/29_l_aventurier",
+      "begin": [
+        54,
+        1,
+        356.98390197753906
+      ],
+      "end": [
+        55,
+        0,
+        110.72096252441406
+      ],
+      "length_pt": 576.3149294531249,
+      "id_end": 55
+    },
+    {
+      "id": 56,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/34_a_nos_souvenirs",
+      "begin": [
+        55,
+        1,
+        358.28321838378906
+      ],
+      "end": [
+        56,
+        0,
+        203.2752227783203
+      ],
+      "length_pt": 485.05998560546874,
+      "id_end": 56
+    },
+    {
+      "id": 57,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/25_vent_frais",
+      "begin": [
+        57,
+        0,
+        356.7506866455078
+      ],
+      "end": [
+        57,
+        0,
+        180.4571990966797
+      ],
+      "length_pt": 176.29348754882812,
+      "id_end": 57
+    },
+    {
+      "id": 58,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/60_les_copains_d_abord",
+      "begin": [
+        57,
+        1,
+        356.94744873046875
+      ],
+      "end": [
+        58,
+        0,
+        253.44647216796875
+      ],
+      "length_pt": 433.5529665625,
+      "id_end": 58
+    },
+    {
+      "id": 59,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/44_elle_me_dit",
+      "begin": [
+        59,
+        0,
+        357.6099853515625
+      ],
+      "end": [
+        60,
+        0,
+        175.27645874023438
+      ],
+      "length_pt": 842.4375066113281,
+      "id_end": 59
+    },
+    {
+      "id": 60,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/27_on_ira",
+      "begin": [
+        61,
+        0,
+        358.2903137207031
+      ],
+      "end": [
+        62,
+        0,
+        177.05580139160156
+      ],
+      "length_pt": 841.3384923291015,
+      "id_end": 60
+    },
+    {
+      "id": 61,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/45_emmenez_moi",
+      "begin": [
+        62,
+        1,
+        358.5575866699219
+      ],
+      "end": [
+        63,
+        0,
+        145.08657836914062
+      ],
+      "length_pt": 543.5229983007812,
+      "id_end": 61
+    },
+    {
+      "id": 62,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/13_j_t_emmene_au_vent",
+      "begin": [
+        64,
+        0,
+        358.4376220703125
+      ],
+      "end": [
+        64,
+        0,
+        71.17828369140625
+      ],
+      "length_pt": 287.25933837890625,
+      "id_end": 62
+    },
+    {
+      "id": 63,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/38_la_boheme",
+      "begin": [
+        64,
+        1,
+        357.9862365722656
+      ],
+      "end": [
+        65,
+        0,
+        105.06095886230469
+      ],
+      "length_pt": 582.9772677099609,
+      "id_end": 63
+    },
+    {
+      "id": 64,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/43_ciel",
+      "begin": [
+        65,
+        1,
+        358.7635803222656
+      ],
+      "end": [
+        65,
+        1,
+        65.7049560546875
+      ],
+      "length_pt": 293.0586242675781,
+      "id_end": 64
+    },
+    {
+      "id": 65,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/14_l_hymne_de_nos_campagnes",
+      "begin": [
+        66,
+        0,
+        355.2721405029297
+      ],
+      "end": [
+        67,
+        0,
+        96.24504089355469
+      ],
+      "length_pt": 919.131079609375,
+      "id_end": 65
+    },
+    {
+      "id": 66,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/62_jolie_bouteille",
+      "begin": [
+        67,
+        1,
+        358.21531677246094
+      ],
+      "end": [
+        68,
+        0,
+        306.05467224121094
+      ],
+      "length_pt": 382.21263453125,
+      "id_end": 66
+    },
+    {
+      "id": 67,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/33_la_strasbourgeoise",
+      "begin": [
+        68,
+        0,
+        269.32127380371094
+      ],
+      "end": [
+        69,
+        0,
+        231.69058227539062
+      ],
+      "length_pt": 697.7346715283203,
+      "id_end": 67
+    },
+    {
+      "id": 68,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/30_j_ai_une_tante_au_maroc",
+      "begin": [
+        69,
+        1,
+        358.43605041503906
+      ],
+      "end": [
+        69,
+        1,
+        84.37765502929688
+      ],
+      "length_pt": 274.0583953857422,
+      "id_end": 68
+    },
+    {
+      "id": 69,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/52_mistral_gagnant",
+      "begin": [
+        70,
+        0,
+        355.5853576660156
+      ],
+      "end": [
+        71,
+        0,
+        118.3538818359375
+      ],
+      "length_pt": 897.3354558300781,
+      "id_end": 69
+    },
+    {
+      "id": 70,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/17_nagawicka",
+      "begin": [
+        71,
+        1,
+        356.38584899902344
+      ],
+      "end": [
+        72,
+        0,
+        305.0162658691406
+      ],
+      "length_pt": 381.4215731298828,
+      "id_end": 70
+    },
+    {
+      "id": 71,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/53_san_francisco",
+      "begin": [
+        72,
+        0,
+        266.38954162597656
+      ],
+      "end": [
+        73,
+        0,
+        145.94439697265625
+      ],
+      "length_pt": 780.5491246533203,
+      "id_end": 71
+    },
+    {
+      "id": 72,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/39_la_route",
+      "begin": [
+        73,
+        1,
+        358.0620574951172
+      ],
+      "end": [
+        74,
+        0,
+        285.7452392578125
+      ],
+      "length_pt": 402.3688082373047,
+      "id_end": 72
+    },
+    {
+      "id": 73,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/33_les_lacs_du_connemara",
+      "begin": [
+        74,
+        1,
+        358.32708740234375
+      ],
+      "end": [
+        75,
+        0,
+        49.17521667480469
+      ],
+      "length_pt": 639.203860727539,
+      "id_end": 73
+    },
+    {
+      "id": 74,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/02_santiano",
+      "begin": [
+        75,
+        1,
+        358.21693420410156
+      ],
+      "end": [
+        76,
+        0,
+        235.83912658691406
+      ],
+      "length_pt": 452.4297976171875,
+      "id_end": 74
+    },
+    {
+      "id": 75,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/03_cendrillon",
+      "begin": [
+        76,
+        1,
+        356.7138366699219
+      ],
+      "end": [
+        77,
+        0,
+        265.5574493408203
+      ],
+      "length_pt": 421.20837732910155,
+      "id_end": 75
+    },
+    {
+      "id": 76,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/05_ne_sens_tu_pas_claquer_tes_doigts",
+      "begin": [
+        78,
+        0,
+        355.90264892578125
+      ],
+      "end": [
+        78,
+        1,
+        200.6127471923828
+      ],
+      "length_pt": 485.3418917333984,
+      "id_end": 76
+    },
+    {
+      "id": 77,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/23_une_belle_histoire",
+      "begin": [
+        79,
+        0,
+        356.4173583984375
+      ],
+      "end": [
+        80,
+        0,
+        305.8077850341797
+      ],
+      "length_pt": 710.7135533642578,
+      "id_end": 77
+    },
+    {
+      "id": 78,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/20_toi_plus_moi",
+      "begin": [
+        80,
+        0,
+        268.2111358642578
+      ],
+      "end": [
+        80,
+        1,
+        164.89859008789062
+      ],
+      "length_pt": 433.3645357763672,
+      "id_end": 78
+    },
+    {
+      "id": 79,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/61_ce_reve_bleu",
+      "begin": [
+        81,
+        0,
+        358.44786071777344
+      ],
+      "end": [
+        81,
+        1,
+        82.12876892089844
+      ],
+      "length_pt": 606.3710817968749,
+      "id_end": 79
+    },
+    {
+      "id": 80,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/09_armstrong",
+      "begin": [
+        82,
+        0,
+        356.2375183105469
+      ],
+      "end": [
+        82,
+        1,
+        285.8426055908203
+      ],
+      "length_pt": 400.44690271972655,
+      "id_end": 80
+    },
+    {
+      "id": 81,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/37_sur_ma_route",
+      "begin": [
+        83,
+        0,
+        358.5845947265625
+      ],
+      "end": [
+        83,
+        1,
+        145.08657836914062
+      ],
+      "length_pt": 543.5500063574218,
+      "id_end": 81
+    },
+    {
+      "id": 82,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/21_tout_le_bonheur_du_monde",
+      "begin": [
+        84,
+        0,
+        358.1737976074219
+      ],
+      "end": [
+        84,
+        1,
+        140.09805297851562
+      ],
+      "length_pt": 548.1277346289062,
+      "id_end": 82
+    },
+    {
+      "id": 83,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/42_le_chant_des_sirenes",
+      "begin": [
+        85,
+        0,
+        358.3028869628906
+      ],
+      "end": [
+        85,
+        1,
+        229.11074829101562
+      ],
+      "length_pt": 459.244128671875,
+      "id_end": 83
+    },
+    {
+      "id": 84,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/49_les_prisons_de_nantes",
+      "begin": [
+        86,
+        0,
+        357.0285186767578
+      ],
+      "end": [
+        86,
+        1,
+        226.05194091796875
+      ],
+      "length_pt": 461.02856775878905,
+      "id_end": 84
+    },
+    {
+      "id": 85,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/11_comme_un_homme",
+      "begin": [
+        87,
+        0,
+        358.19639587402344
+      ],
+      "end": [
+        87,
+        1,
+        146.93080139160156
+      ],
+      "length_pt": 541.3175844824218,
+      "id_end": 85
+    },
+    {
+      "id": 86,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/50_le_sud",
+      "begin": [
+        88,
+        0,
+        357.1439514160156
+      ],
+      "end": [
+        88,
+        1,
+        291.29493713378906
+      ],
+      "length_pt": 395.90100428222655,
+      "id_end": 86
+    },
+    {
+      "id": 87,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/46_formidable",
+      "begin": [
+        89,
+        0,
+        357.54087829589844
+      ],
+      "end": [
+        89,
+        1,
+        67.6180419921875
+      ],
+      "length_pt": 619.9748263037109,
+      "id_end": 87
+    },
+    {
+      "id": 88,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/40_y_a_des_zazous",
+      "begin": [
+        90,
+        0,
+        358.404541015625
+      ],
+      "end": [
+        90,
+        1,
+        237.49505615234375
+      ],
+      "length_pt": 450.96147486328124,
+      "id_end": 88
+    },
+    {
+      "id": 89,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/55_tous_les_cris_les_sos",
+      "begin": [
+        91,
+        0,
+        358.8404083251953
+      ],
+      "end": [
+        91,
+        1,
+        140.09805297851562
+      ],
+      "length_pt": 548.7943453466796,
+      "id_end": 89
+    },
+    {
+      "id": 90,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/26_on_ira",
+      "begin": [
+        92,
+        0,
+        355.5867919921875
+      ],
+      "end": [
+        92,
+        1,
+        118.3538818359375
+      ],
+      "length_pt": 567.2849001562499,
+      "id_end": 90
+    },
+    {
+      "id": 91,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/12_il_en_faut_peu_pour_etre_heureux",
+      "begin": [
+        93,
+        0,
+        355.60498046875
+      ],
+      "end": [
+        93,
+        1,
+        68.78642272949219
+      ],
+      "length_pt": 616.8705477392577,
+      "id_end": 91
+    },
+    {
+      "id": 92,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/31_derriere_chez_ma_tante_il_y_a_un_etang",
+      "begin": [
+        94,
+        0,
+        356.9986877441406
+      ],
+      "end": [
+        94,
+        0,
+        48.6822509765625
+      ],
+      "length_pt": 308.3164367675781,
+      "id_end": 92
+    },
+    {
+      "id": 93,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/16_le_matou_revient",
+      "begin": [
+        94,
+        1,
+        358.83152770996094
+      ],
+      "end": [
+        95,
+        0,
+        231.78587341308594
+      ],
+      "length_pt": 457.097644296875,
+      "id_end": 93
+    },
+    {
+      "id": 94,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/22_hakuna_matata",
+      "begin": [
+        95,
+        1,
+        355.89646911621094
+      ],
+      "end": [
+        96,
+        0,
+        260.95362854003906
+      ],
+      "length_pt": 424.99483057617186,
+      "id_end": 94
+    },
+    {
+      "id": 95,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/58_au_dela_des_cedres",
+      "begin": [
+        96,
+        1,
+        357.9891052246094
+      ],
+      "end": [
+        97,
+        0,
+        306.10838317871094
+      ],
+      "length_pt": 381.9327120458984,
+      "id_end": 95
+    },
+    {
+      "id": 96,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/01_les_champs_elysees",
+      "begin": [
+        97,
+        0,
+        267.9332275390625
+      ],
+      "end": [
+        97,
+        1,
+        305.8876953125
+      ],
+      "length_pt": 292.0975222265625,
+      "id_end": 96
+    },
+    {
+      "id": 97,
+      "section": "coindufeu",
+      "cols": 2,
+      "path": "songs/coindufeu/51_love",
+      "begin": [
+        97,
+        1,
+        270.60382080078125
+      ],
+      "end": [
+        98,
+        0,
+        306.2940368652344
+      ],
+      "length_pt": 294.36177393554686,
+      "id_end": 97
+    },
+    {
+      "id": 98,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/07_le_petit_ane_gris",
+      "begin": [
+        99,
+        0,
+        355.96295166015625
+      ],
+      "end": [
+        99,
+        2,
+        154.91046142578125
+      ],
+      "length_pt": 861.156470234375,
+      "id_end": 98
+    },
+    {
+      "id": 99,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/59_bye_bye_lou",
+      "begin": [
+        100,
+        0,
+        355.73475646972656
+      ],
+      "end": [
+        101,
+        0,
+        173.15512084960938
+      ],
+      "length_pt": 1172.7356056201172,
+      "id_end": 99
+    },
+    {
+      "id": 100,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/06_debout_les_gars",
+      "begin": [
+        101,
+        1,
+        356.4825897216797
+      ],
+      "end": [
+        101,
+        2,
+        149.9610137939453
+      ],
+      "length_pt": 536.5735659277343,
+      "id_end": 100
+    },
+    {
+      "id": 101,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/41_1987",
+      "begin": [
+        102,
+        0,
+        356.0572967529297
+      ],
+      "end": [
+        102,
+        2,
+        152.85098266601562
+      ],
+      "length_pt": 863.310294086914,
+      "id_end": 101
+    },
+    {
+      "id": 102,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/54_t_en_fais_pas_la_vie_est_belle",
+      "begin": [
+        102,
+        2,
+        117.1656494140625
+      ],
+      "end": [
+        102,
+        2,
+        49.91636657714844
+      ],
+      "length_pt": 67.24928283691406,
+      "id_end": 102
+    },
+    {
+      "id": 103,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/08_je_cherche_fortune",
+      "begin": [
+        103,
+        0,
+        358.9413146972656
+      ],
+      "end": [
+        103,
+        1,
+        101.26835632324219
+      ],
+      "length_pt": 587.7249483740234,
+      "id_end": 103
+    },
+    {
+      "id": 104,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/24_un_regiment_de_fromages_blancs_mkII",
+      "begin": [
+        103,
+        2,
+        353.9562530517578
+      ],
+      "end": [
+        103,
+        2,
+        216.5169677734375
+      ],
+      "length_pt": 137.4392852783203,
+      "id_end": 104
+    },
+    {
+      "id": 105,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/10_chevaliers_de_la_table_ronde",
+      "begin": [
+        104,
+        0,
+        358.5625305175781
+      ],
+      "end": [
+        104,
+        1,
+        231.69058227539062
+      ],
+      "length_pt": 456.9239382421875,
+      "id_end": 105
+    },
+    {
+      "id": 106,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/04_qui_peut_faire_de_la_voile_sans_vent",
+      "begin": [
+        104,
+        2,
+        356.3925018310547
+      ],
+      "end": [
+        105,
+        0,
+        216.12107849121094
+      ],
+      "length_pt": 470.32341333984374,
+      "id_end": 106
+    },
+    {
+      "id": 107,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/36_j_veux_du_soleil",
+      "begin": [
+        105,
+        1,
+        356.9771728515625
+      ],
+      "end": [
+        105,
+        2,
+        96.24504089355469
+      ],
+      "length_pt": 590.7841219580077,
+      "id_end": 107
+    },
+    {
+      "id": 108,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/35_petrouchka",
+      "begin": [
+        106,
+        0,
+        358.19061279296875
+      ],
+      "end": [
+        106,
+        1,
+        140.09805297851562
+      ],
+      "length_pt": 548.1445498144531,
+      "id_end": 108
+    },
+    {
+      "id": 109,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/57_la_blanche_hermine",
+      "begin": [
+        106,
+        2,
+        358.21531677246094
+      ],
+      "end": [
+        107,
+        0,
+        231.69058227539062
+      ],
+      "length_pt": 456.5767244970703,
+      "id_end": 109
+    },
+    {
+      "id": 110,
+      "section": "coindufeu",
+      "cols": 3,
+      "path": "songs/coindufeu/15_le_lion_est_mort_ce_soir",
+      "begin": [
+        107,
+        1,
+        359.0595245361328
+      ],
+      "end": [
+        107,
+        1,
+        49.639862060546875
+      ],
+      "length_pt": 309.41966247558594,
+      "id_end": 110
+    },
+    {
+      "id": 111,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/13_forever_young",
+      "begin": [
+        109,
+        0,
+        357.2894287109375
+      ],
+      "end": [
+        109,
+        1,
+        175.27645874023438
+      ],
+      "length_pt": 512.0649599707031,
+      "id_end": 111
+    },
+    {
+      "id": 112,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/02_i_m_yours",
+      "begin": [
+        110,
+        0,
+        356.8495330810547
+      ],
+      "end": [
+        111,
+        0,
+        237.49505615234375
+      ],
+      "length_pt": 779.4584569287109,
+      "id_end": 112
+    },
+    {
+      "id": 113,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/09_here_comes_the_sun",
+      "begin": [
+        111,
+        1,
+        357.4682159423828
+      ],
+      "end": [
+        111,
+        1,
+        150.82994079589844
+      ],
+      "length_pt": 206.63827514648438,
+      "id_end": 113
+    },
+    {
+      "id": 114,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/15_the_boxer",
+      "begin": [
+        112,
+        0,
+        358.0430603027344
+      ],
+      "end": [
+        113,
+        0,
+        169.9627685546875
+      ],
+      "length_pt": 848.1842717480469,
+      "id_end": 114
+    },
+    {
+      "id": 115,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/04_heal_the_world",
+      "begin": [
+        113,
+        1,
+        358.04307556152344
+      ],
+      "end": [
+        114,
+        0,
+        269.5614776611328
+      ],
+      "length_pt": 418.5335879003906,
+      "id_end": 115
+    },
+    {
+      "id": 116,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/08_a_sky_full_of_stars",
+      "begin": [
+        115,
+        0,
+        356.41871643066406
+      ],
+      "end": [
+        115,
+        0,
+        97.3719482421875
+      ],
+      "length_pt": 259.04676818847656,
+      "id_end": 116
+    },
+    {
+      "id": 117,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/16_the_partisan",
+      "begin": [
+        115,
+        1,
+        358.2816162109375
+      ],
+      "end": [
+        116,
+        0,
+        369.8858337402344
+      ],
+      "length_pt": 318.4477724707031,
+      "id_end": 117
+    },
+    {
+      "id": 118,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/10_another_love",
+      "begin": [
+        116,
+        0,
+        357.67933654785156
+      ],
+      "end": [
+        117,
+        0,
+        155.00340270996094
+      ],
+      "length_pt": 862.7799138378906,
+      "id_end": 118
+    },
+    {
+      "id": 119,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/17_hallelujah",
+      "begin": [
+        117,
+        1,
+        355.9517364501953
+      ],
+      "end": [
+        118,
+        0,
+        324.54518127441406
+      ],
+      "length_pt": 361.45854517578124,
+      "id_end": 119
+    },
+    {
+      "id": 120,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/11_we_are_the_champions",
+      "begin": [
+        118,
+        0,
+        287.4783477783203
+      ],
+      "end": [
+        119,
+        0,
+        205.97821044921875
+      ],
+      "length_pt": 741.6041173291015,
+      "id_end": 120
+    },
+    {
+      "id": 121,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/14_the_sound_of_silence",
+      "begin": [
+        119,
+        1,
+        357.87396240234375
+      ],
+      "end": [
+        120,
+        0,
+        237.49505615234375
+      ],
+      "length_pt": 450.43089625,
+      "id_end": 121
+    },
+    {
+      "id": 122,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/06_riptide",
+      "begin": [
+        121,
+        0,
+        356.24180603027344
+      ],
+      "end": [
+        121,
+        1,
+        263.49815368652344
+      ],
+      "length_pt": 422.79564234375,
+      "id_end": 122
+    },
+    {
+      "id": 123,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/05_viva_la_vida",
+      "begin": [
+        122,
+        0,
+        357.3769989013672
+      ],
+      "end": [
+        123,
+        0,
+        245.9891357421875
+      ],
+      "length_pt": 771.4918431591797,
+      "id_end": 123
+    },
+    {
+      "id": 124,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/07_this_is_the_life",
+      "begin": [
+        123,
+        1,
+        359.04393005371094
+      ],
+      "end": [
+        123,
+        1,
+        49.7225341796875
+      ],
+      "length_pt": 309.32139587402344,
+      "id_end": 124
+    },
+    {
+      "id": 125,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/03_lemon_tree",
+      "begin": [
+        124,
+        0,
+        358.59080505371094
+      ],
+      "end": [
+        124,
+        1,
+        195.03106689453125
+      ],
+      "length_pt": 493.6117281591797,
+      "id_end": 125
+    },
+    {
+      "id": 126,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/01_imagine",
+      "begin": [
+        125,
+        0,
+        356.2038269042969
+      ],
+      "end": [
+        125,
+        1,
+        269.46461486816406
+      ],
+      "length_pt": 416.7912020361328,
+      "id_end": 126
+    },
+    {
+      "id": 127,
+      "section": "coindufeu_anglais",
+      "cols": 2,
+      "path": "songs/coindufeu_anglais/12_zombie",
+      "begin": [
+        126,
+        0,
+        359.0595245361328
+      ],
+      "end": [
+        126,
+        0,
+        50.01690673828125
+      ],
+      "length_pt": 309.04261779785156,
+      "id_end": 127
+    },
+    {
+      "id": 1,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/18_le_monsieur_en_chemise",
+      "begin": [
+        4,
+        0,
+        358.1311950683594
+      ],
+      "end": [
+        5,
+        0,
+        189.26809692382812
+      ],
+      "length_pt": 828.9670781445312,
+      "id_end": 1
+    },
+    {
+      "id": 2,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/08_oser_en_grand",
+      "begin": [
+        6,
+        0,
+        356.55560302734375
+      ],
+      "end": [
+        6,
+        1,
+        305.1141357421875
+      ],
+      "length_pt": 381.49345728515624,
+      "id_end": 2
+    },
+    {
+      "id": 3,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/28_promesse_de_scout",
+      "begin": [
+        6,
+        1,
+        266.67897033691406
+      ],
+      "end": [
+        8,
+        0,
+        285.8426055908203
+      ],
+      "length_pt": 970.9923347460938,
+      "id_end": 3
+    },
+    {
+      "id": 4,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/09_avec_ma_tribu",
+      "begin": [
+        9,
+        0,
+        358.6606140136719
+      ],
+      "end": [
+        9,
+        1,
+        231.78587341308594
+      ],
+      "length_pt": 456.9267306005859,
+      "id_end": 4
+    },
+    {
+      "id": 5,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/23_la_promesse",
+      "begin": [
+        10,
+        0,
+        356.8634338378906
+      ],
+      "end": [
+        11,
+        0,
+        237.93357849121094
+      ],
+      "length_pt": 779.0338353466797,
+      "id_end": 5
+    },
+    {
+      "id": 6,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/01_priere_scoute",
+      "begin": [
+        11,
+        0,
+        203.79263305664062
+      ],
+      "end": [
+        11,
+        0,
+        50.15071105957031
+      ],
+      "length_pt": 153.6419219970703,
+      "id_end": 6
+    },
+    {
+      "id": 7,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/21_ensemble_on_est_mieux",
+      "begin": [
+        11,
+        1,
+        358.2549133300781
+      ],
+      "end": [
+        12,
+        0,
+        110.53778076171875
+      ],
+      "length_pt": 577.7691225683593,
+      "id_end": 7
+    },
+    {
+      "id": 8,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/13_changer_le_monde",
+      "begin": [
+        13,
+        0,
+        355.1565856933594
+      ],
+      "end": [
+        14,
+        0,
+        96.24504089355469
+      ],
+      "length_pt": 919.0155247998047,
+      "id_end": 8
+    },
+    {
+      "id": 9,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/22_viens_melanger_tes_couleurs",
+      "begin": [
+        14,
+        1,
+        356.0570526123047
+      ],
+      "end": [
+        15,
+        0,
+        305.60577392578125
+      ],
+      "length_pt": 380.5032686865234,
+      "id_end": 9
+    },
+    {
+      "id": 10,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/30_clameurs_du_monde",
+      "begin": [
+        15,
+        0,
+        268.9755859375
+      ],
+      "end": [
+        16,
+        0,
+        221.60935974121094
+      ],
+      "length_pt": 707.470206196289,
+      "id_end": 10
+    },
+    {
+      "id": 11,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/26_comme_un_appel",
+      "begin": [
+        16,
+        1,
+        356.6208190917969
+      ],
+      "end": [
+        16,
+        1,
+        85.84957885742188
+      ],
+      "length_pt": 270.771240234375,
+      "id_end": 11
+    },
+    {
+      "id": 12,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/10_vis_tes_reves",
+      "begin": [
+        17,
+        0,
+        357.00062561035156
+      ],
+      "end": [
+        17,
+        1,
+        81.90817260742188
+      ],
+      "length_pt": 605.1444430029296,
+      "id_end": 12
+    },
+    {
+      "id": 13,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/24_red_river_valley",
+      "begin": [
+        18,
+        0,
+        356.45191955566406
+      ],
+      "end": [
+        18,
+        1,
+        231.78587341308594
+      ],
+      "length_pt": 454.7180361425781,
+      "id_end": 13
+    },
+    {
+      "id": 14,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/12_je_prends_le_relais",
+      "begin": [
+        19,
+        0,
+        356.21923828125
+      ],
+      "end": [
+        20,
+        0,
+        241.87542724609375
+      ],
+      "length_pt": 774.4477910351562,
+      "id_end": 14
+    },
+    {
+      "id": 15,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/38_tous_a_l_ouest",
+      "begin": [
+        20,
+        0,
+        203.33270263671875
+      ],
+      "end": [
+        20,
+        1,
+        127.21554565429688
+      ],
+      "length_pt": 406.16914698242186,
+      "id_end": 15
+    },
+    {
+      "id": 16,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/29_la_scoutance",
+      "begin": [
+        21,
+        0,
+        358.32061767578125
+      ],
+      "end": [
+        21,
+        1,
+        81.81745910644531
+      ],
+      "length_pt": 606.5551485693359,
+      "id_end": 16
+    },
+    {
+      "id": 17,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/37_et_toi_compagnon",
+      "begin": [
+        22,
+        0,
+        356.7879638671875
+      ],
+      "end": [
+        22,
+        1,
+        306.06910705566406
+      ],
+      "length_pt": 380.7708468115234,
+      "id_end": 17
+    },
+    {
+      "id": 18,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/32_la_scoutitude",
+      "begin": [
+        22,
+        1,
+        271.7314910888672
+      ],
+      "end": [
+        23,
+        0,
+        352.6807403564453
+      ],
+      "length_pt": 249.10274073242186,
+      "id_end": 18
+    },
+    {
+      "id": 19,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/39_l_animaqua",
+      "begin": [
+        23,
+        0,
+        315.5583953857422
+      ],
+      "end": [
+        24,
+        0,
+        200.6127471923828
+      ],
+      "length_pt": 775.0496281933594,
+      "id_end": 19
+    },
+    {
+      "id": 20,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/02_viens_grandir_avec_les_farfadets",
+      "begin": [
+        24,
+        1,
+        356.8799591064453
+      ],
+      "end": [
+        25,
+        0,
+        53.64356994628906
+      ],
+      "length_pt": 633.2883791601562,
+      "id_end": 20
+    },
+    {
+      "id": 21,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/06_au_cur_de_la_planete",
+      "begin": [
+        25,
+        1,
+        356.8595428466797
+      ],
+      "end": [
+        26,
+        0,
+        253.44647216796875
+      ],
+      "length_pt": 433.4650606787109,
+      "id_end": 21
+    },
+    {
+      "id": 22,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/14_leve_toi",
+      "begin": [
+        26,
+        1,
+        357.7106170654297
+      ],
+      "end": [
+        27,
+        0,
+        97.24201965332031
+      ],
+      "length_pt": 590.5205874121093,
+      "id_end": 22
+    },
+    {
+      "id": 23,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/25_des_signes_de_fraternite",
+      "begin": [
+        27,
+        1,
+        356.8528289794922
+      ],
+      "end": [
+        28,
+        0,
+        164.71290588378906
+      ],
+      "length_pt": 522.1919130957031,
+      "id_end": 23
+    },
+    {
+      "id": 24,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/17_des_couleurs_sur_mon_chemin",
+      "begin": [
+        28,
+        1,
+        358.1243591308594
+      ],
+      "end": [
+        29,
+        0,
+        164.8057403564453
+      ],
+      "length_pt": 523.370608774414,
+      "id_end": 24
+    },
+    {
+      "id": 25,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/16_jamboree",
+      "begin": [
+        29,
+        1,
+        357.0348663330078
+      ],
+      "end": [
+        30,
+        0,
+        153.75711059570312
+      ],
+      "length_pt": 533.3297457373046,
+      "id_end": 25
+    },
+    {
+      "id": 26,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/03_la_ronde_des_farfadets",
+      "begin": [
+        30,
+        1,
+        358.2106018066406
+      ],
+      "end": [
+        31,
+        0,
+        164.89859008789062
+      ],
+      "length_pt": 523.3640017187499,
+      "id_end": 26
+    },
+    {
+      "id": 27,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/05_allez_viens",
+      "begin": [
+        31,
+        1,
+        358.9562683105469
+      ],
+      "end": [
+        32,
+        0,
+        305.6121368408203
+      ],
+      "length_pt": 383.39612146972655,
+      "id_end": 27
+    },
+    {
+      "id": 28,
+      "section": "sgdf",
+      "cols": 2,
+      "path": "songs/sgdf/15_comme_un_accord",
+      "begin": [
+        32,
+        0,
+        269.41290283203125
+      ],
+      "end": [
+        32,
+        1,
+        92.3370361328125
+      ],
+      "length_pt": 507.12785669921874,
+      "id_end": 28
+    },
+    {
+      "id": 29,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/36_tassin_forever",
+      "begin": [
+        33,
+        0,
+        356.22718811035156
+      ],
+      "end": [
+        33,
+        1,
+        231.78587341308594
+      ],
+      "length_pt": 454.4933046972656,
+      "id_end": 29
+    },
+    {
+      "id": 30,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/31_des_milliards_de_chemins",
+      "begin": [
+        33,
+        2,
+        358.6142578125
+      ],
+      "end": [
+        34,
+        0,
+        140.09805297851562
+      ],
+      "length_pt": 548.5681948339843,
+      "id_end": 30
+    },
+    {
+      "id": 31,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/27_le_monde_m_appelle",
+      "begin": [
+        34,
+        1,
+        356.71116638183594
+      ],
+      "end": [
+        35,
+        0,
+        110.72096252441406
+      ],
+      "length_pt": 906.0941838574219,
+      "id_end": 31
+    },
+    {
+      "id": 32,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/07_promesse_louveteaux_jeannettes",
+      "begin": [
+        35,
+        1,
+        356.36781311035156
+      ],
+      "end": [
+        35,
+        2,
+        77.41261291503906
+      ],
+      "length_pt": 609.0071901953124,
+      "id_end": 32
+    },
+    {
+      "id": 33,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/11_la_caravane",
+      "begin": [
+        36,
+        0,
+        359.11407470703125
+      ],
+      "end": [
+        36,
+        1,
+        231.69058227539062
+      ],
+      "length_pt": 457.4754824316406,
+      "id_end": 33
+    },
+    {
+      "id": 34,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/20_chant_de_la_promesse",
+      "begin": [
+        36,
+        2,
+        356.50352478027344
+      ],
+      "end": [
+        37,
+        0,
+        128.13888549804688
+      ],
+      "length_pt": 558.4166292822265,
+      "id_end": 34
+    },
+    {
+      "id": 35,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/04_farfadets_un_nouveau_monde",
+      "begin": [
+        37,
+        1,
+        357.40736389160156
+      ],
+      "end": [
+        37,
+        2,
+        175.27645874023438
+      ],
+      "length_pt": 512.1828951513671,
+      "id_end": 35
+    },
+    {
+      "id": 36,
+      "section": "sgdf",
+      "cols": 3,
+      "path": "songs/sgdf/19_chant_de_la_promesse_traditionnel",
+      "begin": [
+        38,
+        0,
+        346.9700622558594
+      ],
+      "end": [
+        38,
+        1,
+        239.70223999023438
+      ],
+      "length_pt": 437.319812265625,
+      "id_end": 36
+    },
+    {
+      "id": 128,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/01_la_premiere_en_chemin",
+      "begin": [
+        128,
+        0,
+        356.84288024902344
+      ],
+      "end": [
+        128,
+        1,
+        231.69058227539062
+      ],
+      "length_pt": 455.2042879736328,
+      "id_end": 128
+    },
+    {
+      "id": 129,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/06_psaume_de_la_creation",
+      "begin": [
+        129,
+        0,
+        358.22215270996094
+      ],
+      "end": [
+        129,
+        1,
+        231.78587341308594
+      ],
+      "length_pt": 456.488269296875,
+      "id_end": 129
+    },
+    {
+      "id": 130,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/14_regarde_l_etoile",
+      "begin": [
+        130,
+        0,
+        356.0901641845703
+      ],
+      "end": [
+        130,
+        1,
+        236.14938354492188
+      ],
+      "length_pt": 449.9927706396484,
+      "id_end": 130
+    },
+    {
+      "id": 131,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/07_laudate_dominum",
+      "begin": [
+        130,
+        1,
+        197.18978881835938
+      ],
+      "end": [
+        130,
+        1,
+        128.64517211914062
+      ],
+      "length_pt": 68.54461669921875,
+      "id_end": 131
+    },
+    {
+      "id": 132,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/08_oh_happy_day",
+      "begin": [
+        131,
+        0,
+        355.72564697265625
+      ],
+      "end": [
+        131,
+        1,
+        185.25852966308594
+      ],
+      "length_pt": 500.5191073095703,
+      "id_end": 132
+    },
+    {
+      "id": 133,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/02_hevenu_shalom_alechem",
+      "begin": [
+        132,
+        0,
+        358.2858123779297
+      ],
+      "end": [
+        132,
+        1,
+        305.4390563964844
+      ],
+      "length_pt": 382.8987459814453,
+      "id_end": 133
+    },
+    {
+      "id": 134,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/20_ave_maria_glorious",
+      "begin": [
+        132,
+        1,
+        268.53468322753906
+      ],
+      "end": [
+        133,
+        0,
+        159.92105102539062
+      ],
+      "length_pt": 438.6656222021484,
+      "id_end": 134
+    },
+    {
+      "id": 135,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/11_couronnee_d_etoiles",
+      "begin": [
+        133,
+        1,
+        358.46253967285156
+      ],
+      "end": [
+        134,
+        0,
+        306.07606506347656
+      ],
+      "length_pt": 382.438464609375,
+      "id_end": 135
+    },
+    {
+      "id": 136,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/35_le_vent_des_prophetes",
+      "begin": [
+        134,
+        0,
+        269.3424377441406
+      ],
+      "end": [
+        134,
+        1,
+        231.69058227539062
+      ],
+      "length_pt": 367.70384546875,
+      "id_end": 136
+    },
+    {
+      "id": 137,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/03_tiens_ma_lampe_allumee",
+      "begin": [
+        135,
+        0,
+        356.2288055419922
+      ],
+      "end": [
+        135,
+        1,
+        305.92352294921875
+      ],
+      "length_pt": 380.3572725927734,
+      "id_end": 137
+    },
+    {
+      "id": 138,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/09_amazing_grace",
+      "begin": [
+        135,
+        1,
+        268.6558532714844
+      ],
+      "end": [
+        136,
+        0,
+        231.5952911376953
+      ],
+      "length_pt": 367.11255213378905,
+      "id_end": 138
+    },
+    {
+      "id": 139,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/04_une_flamme_en_moi",
+      "begin": [
+        136,
+        1,
+        360.63304138183594
+      ],
+      "end": [
+        137,
+        0,
+        369.8858337402344
+      ],
+      "length_pt": 320.79919764160155,
+      "id_end": 139
+    },
+    {
+      "id": 140,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/13_que_vive_mon_ame_a_te_louer",
+      "begin": [
+        137,
+        0,
+        357.6463317871094
+      ],
+      "end": [
+        137,
+        0,
+        95.57426452636719
+      ],
+      "length_pt": 262.0720672607422,
+      "id_end": 140
+    },
+    {
+      "id": 141,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/18_regardez_l_humilite_de_dieu",
+      "begin": [
+        137,
+        1,
+        355.16444396972656
+      ],
+      "end": [
+        137,
+        1,
+        147.6394805908203
+      ],
+      "length_pt": 207.52496337890625,
+      "id_end": 141
+    },
+    {
+      "id": 142,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/16_ne_rentrez_pas_chez_vous_comme_avant",
+      "begin": [
+        138,
+        0,
+        356.8171081542969
+      ],
+      "end": [
+        138,
+        0,
+        85.93792724609375
+      ],
+      "length_pt": 270.8791809082031,
+      "id_end": 142
+    },
+    {
+      "id": 143,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/10_comment_ne_pas_te_louer",
+      "begin": [
+        138,
+        1,
+        355.5325469970703
+      ],
+      "end": [
+        138,
+        1,
+        147.8908233642578
+      ],
+      "length_pt": 207.6417236328125,
+      "id_end": 143
+    },
+    {
+      "id": 144,
+      "section": "tempsspi",
+      "cols": 2,
+      "path": "songs/tempsspi/05_resucito",
+      "begin": [
+        139,
+        0,
+        358.82957458496094
+      ],
+      "end": [
+        139,
+        0,
+        197.95632934570312
+      ],
+      "length_pt": 160.8732452392578,
+      "id_end": 144
+    },
+    {
+      "id": 145,
+      "section": "tempsspi",
+      "cols": 3,
+      "path": "songs/tempsspi/17_voici_le_corps_et_le_sang_du_seigneur",
+      "begin": [
+        140,
+        0,
+        347.21630859375
+      ],
+      "end": [
+        140,
+        1,
+        256.43943786621094
+      ],
+      "length_pt": 420.82886072753905,
+      "id_end": 145
+    },
+    {
+      "id": 146,
+      "section": "tempsspi",
+      "cols": 3,
+      "path": "songs/tempsspi/21_que_ma_bouche_chante_ta_louange",
+      "begin": [
+        140,
+        1,
+        213.6173858642578
+      ],
+      "end": [
+        141,
+        0,
+        205.97821044921875
+      ],
+      "length_pt": 667.743155415039,
+      "id_end": 146
+    },
+    {
+      "id": 147,
+      "section": "tempsspi",
+      "cols": 3,
+      "path": "songs/tempsspi/12_jubilez_criez_de_joie",
+      "begin": [
+        141,
+        1,
+        357.1495361328125
+      ],
+      "end": [
+        142,
+        0,
+        231.78587341308594
+      ],
+      "length_pt": 785.4676427197265,
+      "id_end": 147
+    },
+    {
+      "id": 148,
+      "section": "tempsspi",
+      "cols": 3,
+      "path": "songs/tempsspi/19_ma_passion",
+      "begin": [
+        142,
+        1,
+        356.2176055908203
+      ],
+      "end": [
+        142,
+        2,
+        253.44647216796875
+      ],
+      "length_pt": 432.82312342285155,
+      "id_end": 148
+    },
+    {
+      "id": 149,
+      "section": "tempsspi",
+      "cols": 3,
+      "path": "songs/tempsspi/15_dans_la_joie",
+      "begin": [
+        143,
+        0,
+        357.27012634277344
+      ],
+      "end": [
+        143,
+        0,
+        83.35079956054688
+      ],
+      "length_pt": 273.91932678222656,
+      "id_end": 149
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+\documentclass[10pt]{article}
+% __COLW__ and __SONGFILE__ are replaced by the measurement script.
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french,english]{babel}
+\usepackage{lmodern}
+\usepackage[scaled=0.92]{helvet}
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+\usepackage[paperwidth=__COLW__pt, paperheight=2500pt,
+            top=0pt, bottom=0pt, left=0pt, right=0pt,
+            headheight=0pt, headsep=0pt, footskip=0pt]{geometry}
+\usepackage[chorded]{songs}
+\songcolumns{1}
+\usepackage{graphicx}
+\usepackage{zref-savepos,zref-abspage}
+\makeatletter\zref@addprop{savepos}{abspage}\makeatother
+\pagestyle{empty}
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\newwrite\mf
+\begin{document}
+\immediate\openout\mf=\jobname.iso
+\null\zsavepos{start}%
+\begin{songs}{}
+\input{__SONGFILE__}
+\end{songs}
+\zsavepos{end}\null%
+\makeatletter
+\AtEndDocument{%
+  \edef\isoline{ABSP \zref@extractdefault{end}{abspage}{1} STARTY \zposy{start} ENDY \zposy{end} ENDP \zref@extractdefault{end}{abspage}{1} STARTP \zref@extractdefault{start}{abspage}{1} PAPERH \the\paperheight}%
+  \immediate\write\mf{\isoline}%
+  \immediate\closeout\mf%
+}
+\makeatother
+\end{document}
