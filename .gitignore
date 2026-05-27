@@ -5,3 +5,12 @@ build/
 *.sxd
 *.sbx
 *.sxc
+
+# Build artifacts
+build_iso/
+
+# Stray / unrelated files accidentally saved into images/
+images/Scaleway Cloud Services Executive Summary.docx
+images/jean-bart-blanc-t-shirt-sport-femme.jpg
+images/Logo-Dunkerqueboutique-blanc-fond-bleu446084-512px.png
+images/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg
